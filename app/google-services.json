@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "336703379565",
+    "firebase_url": "https://rahal-f6f5e.firebaseio.com",
+    "project_id": "rahal-f6f5e",
+    "storage_bucket": "rahal-f6f5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336703379565:android:aa94413c0e284cda4c4764",
+        "android_client_info": {
+          "package_name": "com.octaitsolutions.rahal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336703379565-orvqqdcnqlhcdgrnbipc0mo96426g2jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.octaitsolutions.rahal",
+            "certificate_hash": "06d7afddf593f1bc6f856fb320d8a41372a87283"
+          }
+        },
+        {
+          "client_id": "336703379565-fao4li1cidadavjjn2m43i97sggmhlb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRIuzUIGMLHKyejsMAAyJrm2J9g5agAYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336703379565-fao4li1cidadavjjn2m43i97sggmhlb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

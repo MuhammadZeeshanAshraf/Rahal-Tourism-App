@@ -1,0 +1,1925 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Rahal</string>
+    <string name="quote">Live with no excuses and travel with no regrets</string>
+    <string name="OPEN_WEATHER_MAP_API_KEY">7942cba4ea7be6e97e0d32f28242e099</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="we_pursue_a_relaxed_chatiing_experience">We pursue a relaxed chatiing experience</string>
+    <string name="otp"><![CDATA[<font color="#a3a3a3">We will send you an</font> <font color="#F54845">One Time Password</font> <font color="#a3a3a3">on this mobile number</font>]]></string>
+    <string name="otp1" tools:ignore="TypographyDashes"><![CDATA[<font color="#a3a3a3">Enter OTP send to </font> <font color="#F54845"></font>]]></string>
+    <string name="shopping">Shopping</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="cafes">Cafes</string>
+    <string name="parks">Parks</string>
+
+
+    <!--    Country Name   -->
+    <string name="Maldives">Maldives</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Australia">Australia</string>
+    <string name="Austria">Austria</string>
+    <string name="Algeria">Algeria</string>
+    <string name="Bhutan">Bhutan</string>
+    <string name="Belgium">Belgium</string>
+    <string name="Brazil">Brazil</string>
+    <string name="Bahrain">Bahrain</string>
+    <string name="Bulgaria">Bulgaria</string>
+    <string name="Cambodia">Cambodia</string>
+    <string name="canada">Canada</string>
+    <string name="China">China</string>
+    <string name="Czech_Republic">Czech Republic</string>
+    <string name="Croatia">Croatia</string>
+    <string name="Costa_Rica">Costa Rica</string>
+    <string name="Egypt">Egypt</string>
+    <string name="Estonia">Estonia</string>
+    <string name="France">France</string>
+    <string name="Germany">Germany</string>
+    <string name="Greece">Greece</string>
+    <string name="Indonesia">Indonesia</string>
+    <string name="Ireland">Ireland</string>
+    <string name="India">India</string>
+    <string name="Italy">Italy</string>
+    <string name="Iceland">Ice Land</string>
+    <string name="Japan">Japan</string>
+    <string name="Jordan">Jordan</string>
+    <string name="Kenya">Kenya</string>
+    <string name="Kuwait">Kuwait</string>
+    <string name="Korea">South Korea</string>
+    <string name="Luxembourg">Luxembourg</string>
+    <string name="Malaysia">Malaysia</string>
+    <string name="Mauritius">Mauritius</string>
+    <string name="Morocoo">Morocoo</string>
+    <string name="Netherlands">Netherlands</string>
+    <string name="New_Zealand">New Zealand</string>
+    <string name="Oman">Oman</string>
+    <string name="Pakistan">Pakistan</string>
+    <string name="Peru">Peru</string>
+    <string name="Philippines">Philippines</string>
+    <string name="Poland">Poland</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Russia">Russia</string>
+    <string name="Scotland">Scotland</string>
+    <string name="Seychelles">Seychelles</string>
+    <string name="South_Africa">South Africa</string>
+    <string name="Spain">Spain</string>
+    <string name="Sri_Lanka">Sri Lanka</string>
+    <string name="Saudi_Arabia">Saudi Arabia</string>
+    <string name="Switzerland">Switzerland</string>
+    <string name="Thailand">Thailand</string>
+    <string name="Turkey">Turkey</string>
+    <string name="United_Kingdom">United Kingdom</string>
+    <string name="Uzbekistan">Uzbekistan</string>
+    <string name="UAE">UAE</string>
+    <string name="USA">USA</string>
+    <string name="Vitnam">Vietnam</string>
+    <string name="Sweden">Sweden</string>
+    <string name="Serbia">Serbia</string>
+    <string name="Slovakia">Slovakia</string>
+    <string name="Nepal">Nepal</string>
+    <string name="Mexico">Mexico</string>
+    <string name="Norway">Norway</string>
+    <string name="Finland">Finland</string>
+    <string name="Bahamas">Bahamas</string>
+    <string name="Hungary">Hungary</string>
+    <string name="Denmark">Denmark</string>
+    <string name="Colombia">Colombia</string>
+    <string name="Qatar">Qatar</string>
+    <string name="Singapore">Singapore</string>
+    <string name="Tunisia">Tunisia</string>
+
+
+    <string name="Bariloche">Bariloche</string>
+    <string name="Buenos_Aires">Buenos Aires</string>
+    <string name="Cordoba">Cordoba</string>
+    <string name="Mar_Del_Plata">Mar Del Plata</string>
+    <string name="Mendoza">Mendoza</string>
+    <string name="Ushuaia">Ushuaia</string>
+
+    <!--    Austraila-->
+    <!--    ************************-->
+    <string name="Alice_Springs">Alice Springs</string>
+    <string name="Cairns">Cairns</string>
+    <string name="Canberra">Canberra</string>
+    <string name="Gold_Coast">Gold Coast</string>
+    <string name="Hobart">Hobart</string>
+    <string name="Melbourne">Melbourne</string>
+    <string name="Perth">Perth</string>
+    <string name="Sydney">Sydney</string>
+
+    <!--    Austria-->
+    <!--    ************************-->
+    <string name="East_Austria">East Austria</string>
+    <string name="Hallstatt">Hallstatt</string>
+    <string name="Innsbruck">Innsbruck</string>
+    <string name="Salzburg">Salzburg</string>
+    <string name="Vienna">Vienna</string>
+
+    <!--    Belgium-->
+    <!--    ************************-->
+    <string name="Antwerp">Antwerp</string>
+    <string name="Bruges">Bruges</string>
+    <string name="Brussels">Brussels</string>
+    <string name="Ghent">Ghent</string>
+    <string name="Leuven">Leuven</string>
+    <string name="Liege">Liege</string>
+    <string name="Mechelen">Mechelen</string>
+    <string name="Mons">Mons</string>
+    <string name="Namur">Namur</string>
+
+    <!--    Bhutan-->
+    <!--    ************************-->
+    <string name="Paro">Paro</string>
+    <string name="Punakha">Punakha</string>
+    <string name="Thimphu">Thimphu</string>
+    <string name="Wangduephodrang">Wangduephodrang</string>
+
+    <!--    Brazil-->
+    <!--    ************************-->
+    <string name="Florianópolis">Florianópolis</string>
+    <string name="Foz_do_Lguaçu">Foz do Lguaçu</string>
+    <string name="Rio_de_Laneiro">Rio de Laneiro</string>
+    <string name="Sao_Paulo">Sao Paulo</string>
+
+
+    <!--    Combodia-->
+    <!--    ************************-->
+    <string name="Banlung">Banlung</string>
+    <string name="Battambang">Battambang</string>
+    <string name="Kampot">Kampot</string>
+    <string name="Koh_Rong">Koh Rong</string>
+    <string name="Kratie">Kratie</string>
+    <string name="Sihanoukville">Sihanoukville</string>
+
+    <!--    Canada-->
+    <!--    ************************-->
+    <string name="Montreal">Montreal</string>
+    <string name="Niagara_Falls">Niagara Falls</string>
+    <string name="Quebec_City">Quebec City</string>
+    <string name="The_Canadian_Rockies">The Canadian Rockies</string>
+    <string name="The_Yukon">The Yukon</string>
+    <string name="Toronto">Toronto</string>
+    <string name="Vancouver">Vancouver</string>
+    <string name="Whistler">Whistler</string>
+
+    <!--    China-->
+    <!--    ************************-->
+    <string name="Beijing">Beijing</string>
+    <string name="Chengdu">Chengdu</string>
+    <string name="Guilin">Guilin</string>
+    <string name="Shanghai">Shanghai</string>
+    <string name="Xi_an">Xi_an</string>
+
+
+    <!--    Egypt-->
+    <!--    ************************-->
+    <string name="Alexandria">Alexandria</string>
+    <string name="Cairo">Cairo</string>
+    <string name="Luxor">Luxor</string>
+    <string name="Sharm_El_Sheikh">Sharm El Sheikh</string>
+    <string name="Hurghada">Hurghada</string>
+
+    <!--    France-->
+    <!--    ************************-->
+    <string name="Lyon">Lyon</string>
+    <string name="Nice">Nice</string>
+    <string name="Paris">Paris</string>
+    <string name="Strasbourg">Strasbourg</string>
+
+    <!--    Germany-->
+    <!--    ************************-->
+    <string name="Berlin">Berlin</string>
+    <string name="Cologne">Cologne</string>
+    <string name="Dresden">Dresden</string>
+    <string name="Frankfurter">Frankfurter</string>
+    <string name="Freiburg">Freiburg</string>
+    <string name="Hamburg">Hamburg</string>
+    <string name="Heidelberg">Heidelberg</string>
+    <string name="Kiel">Kiel</string>
+    <string name="Munich">Munich</string>
+    <string name="Potsdam">Potsdam</string>
+
+
+    <!--    Greece-->
+    <!--    ************************-->
+    <string name="Athens">Athens</string>
+    <string name="Corfu">Corfu</string>
+    <string name="Meteora">Meteora</string>
+    <string name="Mykonos">Mykonos</string>
+    <string name="Santorini">Santorini</string>
+    <string name="Thessaloniki">Thessaloniki</string>
+
+    <!--    India-->
+    <!--    ************************-->
+    <string name="Agra">Agra</string>
+    <string name="Chennai">Chennai</string>
+    <string name="Delhi">Delhi</string>
+    <string name="Jaipur">Jaipur</string>
+    <string name="Mumbai">Mumbai</string>
+
+    <!--    Indonesia-->
+    <!--    ************************-->
+    <string name="Bandung">Bandung</string>
+    <string name="Jakarta">Jakarta</string>
+    <string name="Kuta">Kuta</string>
+    <string name="Ubud">Ubud</string>
+    <string name="Yogyakarta">Yogyakarta</string>
+
+    <!--    Ireland-->
+    <!--    ************************-->
+    <string name="Dublin">Dublin</string>
+    <string name="Galway">Galway</string>
+    <string name="Kilkenny">Kilkenny</string>
+    <string name="Killarney">Killarney</string>
+    <string name="Limerick">Limerick</string>
+
+    <!--    Italy-->
+    <!--    ************************-->
+    <string name="Bologna">Bologna</string>
+    <string name="Florenc">Florenc</string>
+    <string name="Genoa">Genoa</string>
+    <string name="Milan">Milan</string>
+    <string name="Naples">Naples</string>
+    <string name="Rome">Rome</string>
+    <string name="Venice">Venice</string>
+    <string name="Verona">Verona</string>
+
+    <!--    Japan-->
+    <!--    ************************-->
+    <string name="Fukuoka">Fukuoka</string>
+    <string name="Hiroshima">Hiroshima</string>
+    <string name="Kyoto">Kyoto</string>
+    <string name="Nagasaki">Nagasaki</string>
+    <string name="Nagoya">Nagoya</string>
+    <string name="Osaka">Osaka</string>
+    <string name="Tokyo">Tokyo</string>
+    <string name="Yokohama">Yokohama</string>
+
+    <!--    Kenya-->
+    <!--    ************************-->
+    <string name="Amboseli">Amboseli</string>
+    <string name="Maasai">Maasai</string>
+
+    <!--    Korea-->
+    <!--    ************************-->
+    <string name="Busan">Busan</string>
+    <string name="Gyeongju">Gyeongju</string>
+    <string name="Jinhae">Jinhae</string>
+    <string name="Seoul">Seoul</string>
+
+    <!--    Malaysia-->
+    <!--    ************************-->
+    <string name="Johor_Bahru">Johor Bahru</string>
+    <string name="Kota_Kinabalu">Kota Kinabalu</string>
+    <string name="Kuala_Lumpur">Kuala Lumpur</string>
+    <string name="Kuching">Kuching</string>
+    <string name="Langkawi">Langkawi</string>
+    <string name="Penang">Penang</string>
+
+    <!--    Netherlands-->
+    <!--    ************************-->
+    <string name="Amsterdam">Amsterdam</string>
+    <string name="Delft">Delft</string>
+    <string name="Haarlem">Haarlem</string>
+    <string name="Maastricht">Maastricht</string>
+    <string name="Rotterdam">Rotterdam</string>
+    <string name="Utrecht">Utrecht</string>
+
+    <!--    New Zealand-->
+    <!--    ************************-->
+    <string name="Auckland">Auckland</string>
+    <string name="Hamilton">Hamilton</string>
+    <string name="Tauranga">Tauranga</string>
+    <string name="Wellington">Wellington</string>
+
+    <!--    Philippines-->
+    <!--    ************************-->
+    <string name="Bacolod">Bacolod</string>
+    <string name="Baguio">Baguio</string>
+    <string name="Cagayan_de_Oro">Cagayan de Oro</string>
+    <string name="Manila">Manila</string>
+
+    <!--    Poland-->
+    <!--    ************************-->
+    <string name="Gdansk">Gdansk</string>
+    <string name="Krakow">Krakow</string>
+    <string name="Poznan">Poznan</string>
+    <string name="Warsaw">Warsaw</string>
+    <string name="Wroclaw">Wroclaw</string>
+
+    <!--    Portugal-->
+    <!--    ************************-->
+    <string name="Aveiro">Aveiro</string>
+    <string name="Braga">Braga</string>
+    <string name="Coimbra">Coimbra</string>
+    <string name="Lisbon">Lisbon</string>
+    <string name="Porto">Porto</string>
+    <string name="Sintra">Sintra</string>
+
+    <!--    Russia-->
+    <!--    ************************-->
+    <string name="Irkutsk">Irkutsk</string>
+    <string name="Moscow">Moscow</string>
+    <string name="Novosibirsk">Novosibirsk</string>
+    <string name="Saint_Petersburg">Saint Petersburg</string>
+    <string name="Vladivostok">Vladivostok</string>
+    <string name="Yekaterinburg">Yekaterinburg</string>
+
+    <!--    Saudi Arabia-->
+    <!--    ************************-->
+    <string name="Dammam">Dammam</string>
+    <string name="Jeddah">Jeddah</string>
+    <string name="Makkah">Makkah</string>
+    <string name="Medina">Medina</string>
+    <string name="Riyadh">Riyadh</string>
+
+    <!--    Scotland-->
+    <!--    ************************-->
+    <string name="Edinburgh">Edinburgh</string>
+    <string name="Falkirk">Falkirk</string>
+    <string name="Perth_b">Perth</string>
+    <string name="St_Andrews">St_Andrews</string>
+
+    <!--    Scychelles-->
+    <!--    ************************-->
+    <string name="Baie_Ste_Anne">Baie Ste Anne</string>
+    <string name="Beau_Vallon">Beau Vallon</string>
+    <string name="Victoria">Victoria</string>
+
+    <!--    South Africa-->
+    <!--    ************************-->
+    <string name="Cape_Town">Cape_Town</string>
+    <string name="Durban">Durban</string>
+    <string name="Johannesburg">Johannesburg</string>
+    <string name="Port_Elizabeth">Port Elizabeth</string>
+    <string name="Pretoria">Pretoria</string>
+
+    <!--    Spain-->
+    <!--    ************************-->
+    <string name="Barcelona">Barcelona</string>
+    <string name="Bilbao">Bilbao</string>
+    <string name="Cordoba_b">Cordoba</string>
+    <string name="Granada">Granada</string>
+    <string name="Ibiza">Ibiza</string>
+    <string name="Las_Palmas">Las_Palmas</string>
+    <string name="Madrid">Madrid</string>
+    <string name="Malaga">Malaga</string>
+    <string name="Mallorca">Mallorca</string>
+    <string name="San_Sebastian">San_Sebastian</string>
+    <string name="Seville">Seville</string>
+    <string name="Toledo">Toledo</string>
+    <string name="Valencia">Valencia</string>
+
+
+    <!--    Sri Lanka-->
+    <!--    ************************-->
+    <string name="Colombo">Colombo</string>
+    <string name="Galle">Galle</string>
+    <string name="Hikkaduwa">Hikkaduwa</string>
+    <string name="Kandy">Kandy</string>
+    <string name="Negombo">Negombo</string>
+    <string name="Nuwara_Eliya">Nuwara_Eliya</string>
+
+
+    <!--    Switzerland-->
+    <!--    ************************-->
+    <string name="Basel">Basel</string>
+    <string name="Bellinzona">Bellinzona</string>
+    <string name="Bern">Bern</string>
+    <string name="Geneva">Geneva</string>
+    <string name="Lausanne">Lausanne</string>
+    <string name="Lucerne">Lucerne</string>
+    <string name="Lugano">Lugano</string>
+    <string name="St_Gallen">St_Gallen</string>
+    <string name="Thun">Thun</string>
+    <string name="Zurich">Zurich</string>
+
+    <!--    Bahamas-->
+    <!--    ************************-->
+    <string name="Lucaya">Lucaya</string>
+    <string name="Matthew_town">Matthew Town</string>
+    <string name="Nassau">Nassau</string>
+
+    <!--    Czech Republic-->
+    <!--    ************************-->
+    <string name="Cesky_Krumlov">cesky krumlov</string>
+    <string name="Prague">Prague</string>
+
+    <!--    Denmark-->
+    <!--    ************************-->
+    <string name="Aalborg">Aalborg</string>
+    <string name="Aarhus">Aarhus</string>
+    <string name="Copenhagen">Copenhagen</string>
+    <string name="Frederiksberg">Frederiksberg</string>
+    <string name="Odense">Odense</string>
+
+    <!--    Finland-->
+    <!--    ************************-->
+    <string name="Helsinki">Helsinki</string>
+    <string name="Jyvaskyla">Jyvaskyla</string>
+    <string name="Rovaniemi">Rovaniemi</string>
+    <string name="Tampere">Tampere</string>
+    <string name="Turku">Turku</string>
+
+    <!--    Hungary-->
+    <!--    ************************-->
+    <string name="Budapest">Budapest</string>
+    <string name="Debrecen">Debrecen</string>
+    <string name="Eger">Eger</string>
+    <string name="Pecs">Pecs</string>
+    <string name="Szeged">Szeged</string>
+
+
+    <!--    IceLand-->
+    <!--    ************************-->
+    <string name="Akureyri">Budapest</string>
+    <string name="Husavik">Debrecen</string>
+    <string name="Reykjavik">Reykjavik</string>
+    <string name="Vik_i_myrdal">Vik I Myrdal</string>
+
+    <!--    Luxembourg-->
+    <!--    ************************-->
+    <string name="Echternach">Echternach</string>
+    <string name="Ettelbruck">Ettelbruck</string>
+
+    <!--    Mexico-->
+    <!--    ************************-->
+    <string name="Cabo_san_lucas">Cabo San Lucas</string>
+    <string name="Cancun">Cancun</string>
+    <string name="Playa_del_carmen">Playa Del Carmen</string>
+    <string name="Puebla">Puebla</string>
+
+    <!--    Morocoo-->
+    <!--    ************************-->
+    <string name="Agadir">Agadir</string>
+    <string name="Casablanca">Casablanca</string>
+    <string name="Fez">Fez</string>
+    <string name="Marrakech">Marrakech</string>
+    <string name="Meknes">Meknes</string>
+    <string name="Tangier">Tangier</string>
+
+    <!--    Nepal-->
+    <!--    ************************-->
+    <string name="Bhaktapur">Bhaktapur</string>
+    <string name="Kathmandu">Kathmandu</string>
+    <string name="Pokhara">Pokhara</string>
+
+    <!--    Norway-->
+    <!--    ************************-->
+    <string name="Alesund">Alesund</string>
+    <string name="Bergen">Bergen</string>
+    <string name="Oslo">Oslo</string>
+    <string name="Stavanger">Stavanger</string>
+    <string name="Trondheim">Trondheim</string>
+
+    <!--    Peru-->
+    <!--    ************************-->
+    <string name="Arequipa">Arequipa</string>
+    <string name="Cusco">Cusco</string>
+    <string name="Lima">Lima</string>
+    <string name="Puno">Puno</string>
+
+    <!--    Serbia-->
+    <!--    ************************-->
+    <string name="Belgrade">Belgrade</string>
+    <string name="Kragujevac">Kragujevac</string>
+    <string name="Kraljevo">Kraljevo</string>
+    <string name="Novi_sad">Novi sad</string>
+
+    <!--    Slovakia-->
+    <!--    ************************-->
+    <string name="Banska_bystrica">Banska Bystrica</string>
+    <string name="Bratislava">Bratislava</string>
+    <string name="Levoca">Levoca</string>
+    <string name="Nitra">Nitra sad</string>
+
+
+    <!--    Sweden-->
+    <!--    ************************-->
+    <string name="Gothenburg">Gothenburg</string>
+    <string name="Helsingborg">Helsingborg</string>
+    <string name="Karlskrona">Karlskrona</string>
+    <string name="Malmo">Malmo</string>
+    <string name="Stockholm">Stockholm</string>
+
+    <!--    Turkey-->
+    <!--    ************************-->
+    <string name="Alanya">Alanya</string>
+    <string name="Ankara">Ankara</string>
+    <string name="Antalya">Antalya</string>
+    <string name="Bodrum">Bodrum</string>
+    <string name="Bursa">Bursa</string>
+    <string name="Fethiye">Fethiye</string>
+    <string name="Istanbul">Istanbul</string>
+    <string name="Izmir">Izmir</string>
+    <string name="Edirne">Edirne</string>
+    <string name="Konya">Konya</string>
+    <string name="Kusadasi">Kusadasi</string>
+    <string name="Trabzon">Trabzon</string>
+    <string name="Urfa">Urfa</string>
+    <string name="Urgup">Urgup</string>
+
+    <!--    UAE-->
+    <!--    ************************-->
+    <string name="Abu_Dhabi">Abu Dhabi</string>
+    <string name="Dubai">Dubai</string>
+
+
+    <!--    United Kingdom-->
+    <!--    ************************-->
+    <string name="Bath">Bath</string>
+    <string name="Birmingham">Birmingham</string>
+    <string name="Brighton">Brighton</string>
+    <string name="Bristol">Bristol</string>
+    <string name="Glasgow">Glasgow</string>
+    <string name="Liverpool">Liverpool</string>
+    <string name="London">London</string>
+    <string name="Manchester">Manchester</string>
+    <string name="Newcastle">Newcastle</string>
+    <string name="Oxford">Oxford</string>
+    <string name="York">York</string>
+
+
+    <!--    USA-->
+    <!--    ************************-->
+    <string name="Boston">Boston</string>
+    <string name="Chicago">Chicago</string>
+    <string name="Honolulu">Honolulu</string>
+    <string name="Las_Vegas">Las Vegas</string>
+    <string name="Los_Angeles">Los_Angeles</string>
+    <string name="Miami">Miami</string>
+    <string name="New_York">New_York</string>
+    <string name="Orlando">Orlando</string>
+    <string name="San_Diego">San_Diego</string>
+    <string name="San_Francisco">San_Francisco</string>
+    <string name="Washington">Washington</string>
+
+
+    <!--    Uzbekistan-->
+    <!--    ************************-->
+    <string name="Andijan">Andijan</string>
+    <string name="Bukhara">Bukhara</string>
+    <string name="Gulistan">Gulistan</string>
+
+    <!--    Vitnam-->
+    <!--    ************************-->
+    <string name="Can_Tho">Can_Tho</string>
+    <string name="Da_Nang">Da_Nang</string>
+    <string name="Dalat">Dalat</string>
+    <string name="Hanoi">Hanoi</string>
+    <string name="Ho_Chi_Minh_City">Ho Chi Minh City</string>
+    <string name="Hoiz_An">Hoiz-An</string>
+    <string name="Hue">Hue</string>
+    <string name="Nha_Trang">Nha_Trang</string>
+
+    <!--    Thiland-->
+    <!--    ************************-->
+    <string name="Ayutthaya">Ayutthaya</string>
+    <string name="Bangkok">Bangkok</string>
+    <string name="Chiang_Mai">Chiang_Mai</string>
+    <string name="Chiang_Rai">Chiang_Rai</string>
+    <string name="Hua_Hin">Hua_Hin</string>
+    <string name="Kanchanaburi">Kanchanaburi</string>
+    <string name="Krabi_Town">Krabi_Town</string>
+    <string name="Nong_Khai">Nong_Khai</string>
+    <string name="Pai">Pai</string>
+    <string name="Pattaya">Pattaya</string>
+    <string name="Phuket">Phuket</string>
+
+    <!--    Pakistan-->
+    <!--    ************************-->
+    <string name="Islamabad">Islamabad</string>
+    <string name="Lahore">Lahore</string>
+    <string name="Karachi">Karachi</string>
+    <string name="Peshawar">Peshawar</string>
+    <string name="Kashmir">Kashmir</string>
+    <string name="Gwadar">Gwadar</string>
+
+
+    <!--    Bulgaria-->
+    <!--    ************************-->
+    <string name="Nesebar">Nesebar</string>
+    <string name="Plovdiv">Plovdiv</string>
+    <string name="Sofia">Sofia</string>
+    <string name="Varna">Varna</string>
+
+
+    <!--    Costa Rica-->
+    <!--    ************************-->
+    <string name="Arenal">Arenal</string>
+    <string name="Cahuita">Cahuita</string>
+    <string name="Corcovado">Corcovado</string>
+    <string name="Puerto_Viejo">Puerto Viejo</string>
+    <string name="Tortuguero">Tortuguero</string>
+
+
+    <!--    Croatia-->
+    <!--    ************************-->
+    <string name="Dubrovnik">Dubrovnik</string>
+    <string name="Split">Split</string>
+    <string name="Zadar">Zadar</string>
+    <string name="Zagreb">Zagreb</string>
+
+
+    <!--    Estonia-->
+    <!--    ************************-->
+    <string name="Parnu">Parnu</string>
+    <string name="Tallinn">Tallinn</string>
+    <string name="Tartu">Tartu</string>
+
+
+    <!--    Colombia-->
+    <!--    ************************-->
+    <string name="Bogota">Bogota</string>
+    <string name="Cali">Cali</string>
+    <string name="Medellin">Medellin</string>
+
+    <!--    Country Info   -->
+    <string name="Maldives_Info">"Country in South Asia
+
+The Maldives is a tropical nation in the Indian Ocean composed of 26 ring-shaped atolls, which are made up of more than 1,000 coral islands. It’s known for its beaches, blue lagoons and extensive reefs. The capital, Malé, has a busy fish market, restaurants and shops on the main road, Majeedhee Magu, and 17th-century Hukuru Miskiy (also known as Friday Mosque) made of carved white coral.
+
+The islands are popular for snorkeling and diving due to the warm water, high visibility and diverse marine life, including manta rays and spotted whale sharks, which can grow to 12m long. Other popular water activities include swimming, surfing, sea kayaking and jet-skiing. Travel by boat or seaplane is common on inter-island trips from Malé to uninhabited islands or small fishing villages, many of which offer guesthouses or homestays. The most typical travel accommodations are luxury spa resorts and overwater bungalows on wooden stilts.
+"</string>
+
+    <string name="Argentina_Info">"Country in South America
+        Argentina is a massive South American nation with terrain encompassing Andes mountains, glacial lakes and Pampas grassland, the traditional grazing ground of its famed beef cattle. The country is famous for tango dance and music. Its big, cosmopolitan capital, Buenos Aires, is centered on the Plaza de Mayo, lined with stately 19th-century buildings including Casa Rosada, the iconic, balconied presidential palace.
+        In the Pampas are estancias (ranches) and Spanish colonial Córdoba, founded in 1573, now a university town. Mendoza is the heart of Argentina’s wine country, known for Malbecs and other red wines. In the Andes region, 6,962m Aconcagua is the Western Hemisphere’s highest peak. Straddling the Brazilian border, dramatic Iguazu Falls thunder 82m into tropical jungle. The Alpine-style town Bariloche is a base for skiing, hiking and exploring the Lake District. And Patagonia’s vast steppes stretch to Península Valdés, home to whales and penguins, and Tierra del Fuego, an island chain off the country southernmost tip."
+</string>
+
+    <string name="Australia_Info">"Country in Oceania
+
+Australia is a country and continent surrounded by the Indian and Pacific oceans. Its major cities – Sydney, Brisbane, Melbourne, Perth, Adelaide – are coastal. Its capital, Canberra, is inland. The country is known for its Sydney Opera House, the Great Barrier Reef, a vast interior desert wilderness called the Outback, and unique animal species like kangaroos and duck-billed platypuses.
+
+The Outback's arid Red Centre region is home to the remote town of Alice Springs, a hub for Uluru-Kata Tjuta National Park. The park is the site of the Olgas geologic formation and Uluru (Ayers Rock), both sacred to the local indigenous people. Closer to the east coast, Cairns’ Tjapukai Aboriginal Cultural Park and Canberra’s National Museum of Australia both explore Aboriginal culture. The country is also known for outdoor activities like snorkelling, surfing, adventure sports and hiking. Visitors can explore rainforests, desert, beaches and alpine ranges, as well the Barossa Valley's vineyards, known for their Shiraz wines.
+"</string>
+
+    <string name="Austria_Info">"Country in Europe
+
+Austria is a German-speaking country in Central Europe, characterized by mountain villages, baroque architecture, Imperial history and rugged Alpine terrain. Vienna, its Danube River capital, is home to the Schönbrunn and Hofburg palaces. It has counted Mozart, Strauss and Freud among its residents. The country’s other notable regions include the northern Bohemian Forest, Traunsee Lake and eastern hillside vineyards.
+
+The western Tyrol region’s ski resorts include Ischgl and Kitzbühel. Innsbruck’s space-age Hungerburgbahn funicular contrasts with 16th-century Goldenes Dachl, with its copper-tiled roof, in the medieval Altstadt (old town). Along the German border, Salzburg’s Altstadt was the birthplace of Mozart and is home to medieval Hohensalzburg Fortress. Its Neustadt’s neoclassical Mirabell Palace was a backdrop to the 1965 film "The Sound of Music." Austrian delicacies include Wiener schnitzel (breaded veal cutlet) and apple strudel pastries, and Austria’s elegant coffeehouses are a cornerstone of national culture.
+"</string>
+
+    <string name="Algeria_Info">"Country in North Africa
+
+Algeria is a North African country with a Mediterranean coastline and a Saharan desert interior. Many empires have left legacies here, such as the ancient Roman ruins in seaside Tipaza. In the capital, Algiers, Ottoman landmarks like circa-1612 Ketchaoua Mosque line the hillside Casbah quarter, with its narrow alleys and stairways. The city’s Neo-Byzantine basilica Notre Dame d’Afrique dates to French colonial rule.
+
+Algiers’ Jardin d'Essai du Hamma, begun in 1832, is a botanical garden with extensive grounds and a palm-lined promenade toward the sea. The nearby National Bardo Museum exhibits ancient artifacts in a carefully restored 18th-century villa. In the country’s northern Saharan interior, traditional Berber walled settlements and oases dating to the 10th century are preserved in the M’zab Valley. In the northeastern mountains, the provincial capital Constantine is distinguished by its picturesque bridges spanning deep river gorges. The Mediterranean port Oran is the birthplace of Bedouin-influenced raï music.
+"</string>
+
+    <string name="Bhutan_Info">"Country in South Asia
+
+Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known for its monasteries, fortresses (or dzongs) and dramatic landscapes that range from subtropical plains to steep mountains and valleys. In the High Himalayas, peaks such as 7,326m Jomolhari are popular trekking destinations. Paro Taktsang monastery (also known as Tiger’s Nest) clings to cliffs above the forested Paro Valley.
+
+The capital, Thimphu, is home to a bustling weekend market and the ornate Tashichho Dzong, which serves as the government seat. The historic Punakha Dzong, built in 1637, sits at the juncture of 2 rivers and hosts a lavish, multiday religious festival that features masked dances and music. The Phobjikha Valley, habitat for rare black-necked cranes, is a bird-watching destination. As independent travel to Bhutan is not allowed, most visitors book through a tour operator.
+"</string>
+    <string name="Belgium_Info">"Country in Europe
+
+Belgium, a country in Western Europe, is known for medieval towns, Renaissance architecture and as headquarters of the European Union and NATO. The country has distinctive regions including Dutch-speaking Flanders to the north, French-speaking Wallonia to the south and a German-speaking community to the east. The bilingual capital, Brussels, has ornate guildhalls at Grand-Place and elegant art-nouveau buildings.
+
+In Flanders, the port of Antwerp on the River Scheldt includes the centuries-old Diamond District and the home studio of Flemish Baroque artist Peter Paul Rubens. Medieval Ghent has the circa-1180 Gravensteen castle and 14th-century St. Bavo’s Cathedral. Bruges’ modern seaport, Zeebrugge, is a contrast to Markt square with its 13th-century belfry. Traditionally industrial, Wallonia’s principal cities are based around the Sambre and Meuse river valleys. Liège is the birthplace of a namesake sugar-crusted waffle. The country is also known for artisanal chocolate, plus long traditions of lace-making, beer-brewing and diamond-cutting.
+"</string>
+
+    <string name="Brazil_Info">"Country in South America
+
+Brazil, a vast South American country, stretches from the Amazon Basin in the north to vineyards and massive Iguaçu Falls in the south. Rio de Janeiro, symbolized by its 38m Christ the Redeemer statue atop Mount Corcovado, is famed for its busy Copacabana and Ipanema beaches as well as its enormous, raucous Carnaval festival, featuring parade floats, flamboyant costumes, and samba music and dance.
+
+Vibrant São Paulo is packed with shops, restaurants and cultural institutions including the noted Museum of Art. Brazil’s capital, Brasília, founded in 1960, is a planned city with modernist buildings by Oscar Niemeyer. The northeastern state of Bahia, known for beaches and dense Amazon rainforest, reflects African influences in its capoeira martial arts, axé dance music and moqueca (a coconut milk-seafood stew). Its capital, Salvador, retains its 16th- and 17th-century core. Farther north are Alagoas’ coral reefs, Maranhao’s sand dunes and Portuguese colonial town Olinda. Western Pantanal’s wetlands shelter caimans and jaguars
+"</string>
+    <string name="Bahrain_Info">"Country in the Middle East
+
+Bahrain, a nation comprising more than 30 islands in the Arabian Gulf, has been at the center of major trade routes since antiquity. In its modern capital, Manama, the acclaimed Bahrain National Museum showcases artifacts from the ancient Dilmun civilization that flourished in the region for millennia. The city's thriving Bab al-Bahrain bazaar offers wares ranging from colorful handwoven fabrics and spices to pearls.
+
+Manama is also home to the enormous Al-Fateh Mosque, which is open for tours, and Beit al-Qur'an, a museum exhibiting many well-preserved Muslim manuscripts. Atop the original Dilmun capital rests Qal’at al-Bahrain, a fort dating to 2300 B.C., with the layered remains of many civilizations. Other archaeological attractions include the 15th-century fort Qala’at Arad on Muharraq Island and the prehistoric burial mounds at A’ali. The Hawar Islands Protected Area is a nesting zone for birds like cormorants, and Al-Areen Wildlife Park and Reserve protects oryx antelope and other indigenous species.
+"</string>
+    <string name="Bulgaria_Info">"Country in the Balkans
+
+Bulgaria is a Balkan nation with diverse terrain encompassing Black Sea coastline, a mountainous interior and rivers, including the Danube. A cultural melting pot with Greek, Slavic, Ottoman, and Persian influences, it has a rich heritage of traditional dance, music, costumes, and crafts. At the foot of domed Vitosha mountain is its capital city, Sofia, dating to the 5th century B.C.
+
+In Sofia, the National Museum of History displays gold artifacts excavated from the Valley of the Thracian Rulers, a well-known collection of tombs near the town of Kazanlak. Medieval churches at Ivanovo are cut from solid rock. The fortresslike Rila Monastery, built in Bulgarian Renaissance style, is set in the Rila Mountains. Archaeological sites include Nessebar, the 3,000-year-old ruins of a Greek colony, on the Black Sea. Up the coast, Varna is known for beach resorts, while southwestern Bansko is a ski destination. There are hundreds of mineral springs countrywide, notably at the spa towns of Varshets and Velingrad.
+
+"</string>
+    <string name="Cambodia_Info">"Country in Asia
+
+Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Phnom Penh, its capital, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest are the ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire.
+
+In the country's south are the beaches and boisterous bars of Sihanoukville Province. Elsewhere along the southern coast, the town of Kep mixes present-day resorts with the ruins of those from its time under French rule. Ecotourism thrives in Koh Kong Province’s mangrove forests and Cardamom Mountains and in the remote northeast, where dense jungle and villages line the Mekong. Cambodian cuisine, less spicy than some of its Southeast Asian neighbors, ranges from the steamed curry dish amok to fried tarantulas, while baguettes and coffee remain a French-colonial legacy
+"</string>
+    <string name="canada_Info">"Country in North America
+
+Canada is a North American country stretching from the U.S. in the south to the Arctic Circle in the north. Major cities include massive Toronto, west coast film centre Vancouver, French-speaking Montréal and Québec City, and capital city Ottawa. Canada's vast swaths of wilderness include lake-filled Banff National Park in the Rocky Mountains. It's also home to Niagara Falls, a famous group of massive waterfalls.
+
+Besides taking a boat ride through the mists of Niagara Falls, some other notable experiences include hiking Newfoundland’s coastline for views of Iceberg Alley and exploring Québec’s European-style cities. Hot springs and the scenic Icefields Parkway are draws in the Canadian Rockies. Skiing, mountain biking and golf are attractions in Whistler, British Columbia. In the far north, dogsledding expeditions take visitors to see the Aurora Borealis, an at
+mospheric light phenomenon. Cultural highlights include Toronto’s professional theatre, the Calgary Stampede rodeo and winter festivals and ice-hockey games countrywide.
+"</string>
+    <string name="China_Info">"Country in East Asia
+
+China is a populous nation in East Asia whose vast landscape encompasses grassland, desert, mountains, lakes, rivers and more than 14,000km of coastline. Capital Beijing mixes modern architecture with historic sites such as the Forbidden City palace complex and Tiananmen Square. Shanghai is a skyscraper-studded global financial center. The iconic Great Wall of China runs east-west across the country's north.
+
+The city of Xi’an has the Terracotta Army archaeological site featuring thousands of sculpted warriors from the 3rd century B.C. From Xi’an, the ancient Silk Road trade route runs west through Dunhuang, where the Mogao Caves house Buddhist sculptures and murals, and Kashgar, with its renowned Sunday Market. In the south are Yunnan’s dramatic canyon, Tiger Leaping Gorge, and the city of Guilin, known for its karst peaks and the Li River. Hong Kong is known for its shopping, Victoria Peak views and harborside skyline. Remote Tibet is home to Mt. Everest and Potala Palace, the Dalai Lama’s former home.
+"</string>
+    <string name="Czech_Republic_Info">"Country in Europe
+
+The Czech Republic, in Central Europe, is a country that's known for its ornate castles, native beers and long history. Prague, the capital, is home to grand 9th-century Prague Castle, a preserved medieval old town and statue-lined Charles Bridge. Český Krumlov, a small town in the South Bohemia region, is notable for its wealth of Gothic, Renaissance and Baroque buildings, many of which house restaurants and shops.
+
+Western Bohemia encompasses Karlovy Vary and Mariánské Lázne, fabled spa towns where visitors can bathe in mineral waters. In medieval Kutna Horá, a former silver-mining town, Sedlec Ossuary displays more than 40,000 human skeletons. The Pilsner Urquell complex and Brewery Museum celebrate the country’s national beverage in Plzeň, the birthplace of Pilsner beer. To the east, the historical region of Moravia includes Brno, an industrial city of neoclassical and functionalist buildings, and the winemaking region of Znojmo. Czech cuisine comprises hearty dishes such as bramboračka potato soup and svíčková, beef with dumplings.
+"</string>
+    <string name="Croatia_Info">"Country in the Balkans
+
+Croatia is an Eastern European country with a long coastline on the Adriatic Sea. Encompassing more than a thousand islands, it's also crossed by the Dinaric Alps. Its inland capital, Zagreb, is distinguished by its medieval Gornji Grad (Upper Town) and diverse museums. The major coastal city Dubrovnik has massive 16th-century walls encircling an Old Town with Gothic and Renaissance buildings.
+
+In the coastal Dalmatia region, the town of Split is centered around the ruins of Diocletian's Palace, a vast 4th-century Roman complex. Croatia’s beaches and islands are busy in summer, and many offer sites for tent or trailer camping. Hvar is a glitzy island with yachts and celebrities, and nearby Korčula is known for pine forests, wine and a medieval walled Old Town. Plitvice Lakes National Park is renowned for turquoise lakes and dramatic waterfalls. Croatian cuisine is diverse, blending hints of Hungarian, Italian, Turkish and Slavic influences.
+"</string>
+    <string name="Costa_Rica_Info">"
+Country in Central America
+
+Costa Rica is a rugged, rainforested Central American country with coastlines on the Caribbean and Pacific. Though its capital, San Jose, is home to cultural institutions like the Pre-Columbian Gold Museum, Costa Rica is known for its beaches, volcanoes, and biodiversity. Roughly a quarter of its area is made up of protected jungle, teeming with wildlife including spider monkeys and quetzal birds.
+
+Active pursuits include golfing, surfing, and hiking or taking a zip-line canopy tour through Monteverde Cloud Forest Reserve, a mist-covered sanctuary for animals and rare plants, particularly orchids. Other options include viewing endangered sea turtles as they nest in Tortuguero National Park, touring coffee plantations, visiting the sheltered beaches of Manuel Antonio National Park, and soaking in hot springs near the base of Arenal, an active volcano. Costa Rica is also known for its eco-lodges, hotels that seek to minimize their effect on the surrounding natural environment.
+"</string>
+    <string name="Egypt_Info">"Country in Middle East
+
+Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities.
+
+The Mediterranean port of Alexandria is the site of Greco-Roman remains such as Pompey’s Pillar and the rock-cut Catacombs of Kom el Shoqafa. On the Sinai Peninsula lie biblical Mt. Sinai and Red Sea beach resorts such as Sharm el-Sheikh, known for Ras Mohammed National Park’s coral reefs. Far to the south in Nubia are the temples at Abu Simbel, built for Pharaoh Ramesses II and Nefertari, and moved to save them from the rising waters of the Nile. Still, much of Egypt is uninhabited Sahara desert and dunes, which can be reached on safari by camel or jeep
+
+"</string>
+    <string name="Estonia_Info">"Country in Europe
+
+Estonia, a country in Northern Europe, borders the Baltic Sea and Gulf of Finland. Including more than 1,500 islands, its diverse terrain spans rocky beaches, old-growth forest and many lakes. Formerly part of the Soviet Union, it's dotted with castles, churches and hilltop fortresses. The capital, Tallinn, is known for its preserved Old Town, museums and the 314m-high Tallinn TV Tower, which has an observation deck.
+
+Another major site in Tallinn is Kadriorg Palace, a summer home built by Czar Peter the Great for his wife, Catherine. Near Tallinn is the vast Lahemaa National Park, with raised bogs, conifer forests and country manor houses. The imposing medieval Kuressaare Castle on Saaremaa Island houses a museum covering the region’s history. On Russia’s border, near the huge Lake Peipus, is the restored 19th-century Alatskivi Castle. Folk art and culture is showcased at the Estonian National Museum in Tartu. Many of the country's manor houses are now spa hotels, and saunas are commonplace. Traditional cuisine includes herrings and rye bread.
+"</string>
+    <string name="France_Info">"Country in Europe
+
+France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine. Lascaux’s ancient cave drawings, Lyon’s Roman theater and the vast Palace of Versailles attest to its rich history.
+
+Northern highlights include the Loire Valley’s majestic chateaux; Normandy’s WWII sites and iconic Mont-St-Michel; WWI Western Front battlefields; and Brittany’s rugged coast. To the east are German-influenced architecture and food, and the French Alps’ ski resorts. In the south, Provence is home to lavender fields, and the Riviera glitters with glamorous towns and beaches. Bordeaux and Burgundy produce renowned wines, while Champagne gives the bubbly stuff its name. Along with cheeses such as Camembert, Brie and Roquefort, local fare includes Brittany's crêpes and Burgundy's coq au vin.
+"</string>
+
+    <string name="Germany_Info">"Country in Europe
+
+Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.
+
+Germany's north borders the Baltic and the Northern Seas, with its vacation islands Sylt and Rugen, and the habor city Hamburg. Berlin is home to the Kurfürstendamm, an elegant shopping street, the Brandenburg Gate, the Reichstag parliament building, Museum Island and the Berlin Wall. Several memorials serves as reminders of the atrocities of the Third Reich. Munich in
+Bavaria is famous for its beerhalls and its Marienplatz square, home to the Old and New Town Halls. Germany is also well-known for its hiking and skiing opportunities in the Alps and the Black Forest.
+
+"</string>
+    <string name="Greece_Info">"Country in the Balkans
+
+Greece is a country in southeastern Europe with thousands of islands throughout the Aegean and Ionian seas. Influential in ancient times, it's often called the cradle of Western civilization. Athens, its capital, retains landmarks including the 5th-century B.C. Acropolis citadel with the Parthenon temple. Greece is also known for its beaches, from the black sands of Santorini to the party resorts of Mykonos.
+
+Major islands include Crete, home to the Palace of Knossos, famously associated with the mythical Minotaur. Thessaloniki, Greece’s second-largest city, was an important commercial center during the Byzantine Empire. Mountainous, mainland Delphi was home to a famous oracle at the Temple of Apollo. Olympia, on the Peloponnese peninsula, was birthplace of the original Olympic Games. The Aegean island of Rhodes was settled by the Knights of St. John, before becoming part of the Ottoman Empire. Greece's traditional cuisine features such staples as lamb, fish, feta cheese, tomatoes and olive oil.
+"</string>
+    <string name="Indonesia_Info">"Country in Asia
+
+Indonesia, a Southeast Asian nation made up of thousands of volcanic islands, is home to hundreds of ethnic groups speaking many different languages. It’s known for beaches, volcanoes, Komodo dragons and jungles sheltering elephants, orangutans and tigers. On the island of Java lies Indonesia's vibrant, sprawling capital, Jakarta, and the city of Yogyakarta, known for gamelan music and traditional puppetry.
+
+Throughout the country are destinations for surfing, scuba diving and snorkeling, as well as trekking. There are temple ruins at Borobudur (Buddhist) and Prambanan (Hindu). Indonesia’s main religion is Islam, but the island of Bali has a predominantly Hindu tradition and a reputation for dance and performing arts, especially around the historic town of Ubud. Neighboring Lombok, with the active Gunung Rinjani volcano, is a gateway to the laid-back, traffic-free Gili Islands, renowned for scuba diving. Orangutans inhabit the rainforests of Sumatra, while Indonesia’s Komodo dragons live in Komodo National Park.
+"</string>
+    <string name="Ireland_Info">"Country in Europe
+
+The Republic of Ireland occupies most of the island of Ireland, off the coast of England and Wales. Its capital, Dublin, is the birthplace of writers like Oscar Wilde, and home of Guinness beer. The 9th-century Book of Kells and other illustrated manuscripts are on show in Dublin’s Trinity College Library. Dubbed the "Emerald Isle" for its lush landscape, the country is dotted with castles like medieval Cahir Castle.
+
+Newgrange and Knowth have prehistoric burial mounds, while at 15th-century Blarney Castle a legendary stone is said to confer ‘the gift of the gab’. In the country’s west is the traditional music centre Doolin, Killarney National Park biosphere reserve, the rolling hills of the Dingle Peninsula and the scenic Ring of Kerry highway. Western Galway hosts a noted summer arts festival. Off the southwestern coast, the island of Skellig Michael houses the remnants of a centuries-old monastery.
+"</string>
+    <string name="India_Info">"Country in South Asia
+
+India is a vast South Asian country with diverse terrain – from Himalayan peaks to Indian Ocean coastline – and history reaching back 5 millennia. In the north, Mughal Empire landmarks include Delhi’s Red Fort complex and massive Jama Masjid mosque, plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the Ganges in Varanasi, and Rishikesh is a yoga centre and base for Himalayan trekking.
+
+The eastern port Kolkata, former capital of British India, is known for its colonial architecture. In the west, the megacity Mumbai is the seat of the Bollywood film industry, and the Malabar Coast, of spice-trade fame, features beach resorts. A land of diverse spirituality, India is the birthplace of 4 major world religions, namely Hinduism, Sikhism, Buddhism and Jainism. Around the country are innumerable sac
+
+red sites, including ancient carved-stone temples. Its spicy cuisine is as varied as the country itself, and its many wildlife sanctuaries shelter tigers, elephants and monkeys.
+
+"</string>
+    <string name="Italy_Info">"Country in Europe
+
+Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s "David" and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital.
+
+Highlights of northern Italy include exploring the lakeside towns of Lombardy, hiking the hillside-hugging villages of Cinque Terre and downhill skiing in the Italian Alps. Central Italy is known for the rolling vineyards of Tuscany and Umbria, as well as Pisa’s iconic leaning tower. Travel farther south to find Naples, known for its pizza; the rugged Amalfi Coast, where picturesque towns hang precariously over cliffs; and Pompeii's 2,000-year-old remains. Off the southern tip of the peninsula, Sicily offers ancient ruins, beaches and an active volcano.
+"</string>
+    <string name="Iceland_Info">"Country in Europe
+
+Iceland, a Nordic island nation, is defined by its dramatic landscape with volcanoes, geysers, hot springs and lava fields. Massive glaciers are protected in Vatnajökull and Snæfellsjökull national parks. Most of the population lives in the capital, Reykjavik, which runs on geothermal power and is home to the National and Saga museums, tracing Iceland’s Viking history.
+
+The city is well known for the late-night clubs and bars in its compact center. Near Reykjavik, the Blue Lagoon spa steams in a craggy lava field. The "Golden Circle" tour from Reykjavik encompasses Gullfoss Waterfall, the original Geysir (after which all others are named) and Thingvellir National Park, site of the country’s first parliament, established in 930 A.D. A larger circle, the Route 1 "Ring Road," circumnavigates the country, connecting the inhabited areas. Iceland also offers whale watching, the Northern Lights during winter and unusual delicacies like fermented shark
+"</string>
+    <string name="Japan_Info">"Japan is an island nation in the Pacific Ocean with dense cities, imperial palaces, mountainous national parks and thousands of shrines and temples. Shinkansen bullet trains connect the main islands of Kyushu (with Okinawa's subtropical beaches), Honshu (home to Tokyo and Hiroshima’s atomic-bomb memorial) and Hokkaido (famous for skiing). Tokyo, the capital, is known for skyscrapers, shopping and pop culture.
+
+In contrast to Tokyo, quieter Kyoto is famous for its Buddhist temples, Shinto shrines and manicured gardens. Much of Japan's terrain, including the symmetrical Mt. Fuji, is volcanic. Onsen (hot springs resorts featuring mineral baths) and traditional inns called ryokan, are popular. Shops throughout Japan carry trendy fashions, kimono gowns and electronics. Typical entertainment pastimes include sumo-wrestling matches, kabuki theater productions and karaoke bars. Sushi, the national dish, is served everywhere from casual pubs to gourmet restaurants
+"</string>
+    <string name="Jordan_Info">"Country in the Middle East
+
+Jordan, an Arab nation on the east bank of the Jordan River, is defined by ancient monuments, nature reserves and seaside resorts. It’s home to the famed archaeological site of Petra, the Nabatean capital dating to around 300 B.C. Set in a narrow valley with tombs, temples and monuments carved into the surrounding pink sandstone cliffs, Petra earns its nickname, the "Rose City."
+"</string>
+    <string name="Kenya_Info">"Country in East Africa
+
+Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania's 5,895m Mt. Kilimanjaro.
+
+Nairobi is also home to the National Museum, with exhibits spanning native art to natural history, and the roving Maasai Market. Beach resorts line the coast around Malindi, whose vibrant coral reefs make Watamu Marine National Park a popular diving area. It’s possible to hike or climb 5,199m-tall Mt. Kenya, whose snowy peaks dominate the central highlands. In the west, Lake Nakuru National Park shelters a massive flamingo population. Lamu Island offers tranquil beaches, mosques and tours in the region's typical dhow boats, known for their slanted triangular sails and pointed bows.
+
+"</string>
+    <string name="Kuwait_Info">"Country in the Middle East
+
+Kuwait, an Arab country on the Persian (Arabian) Gulf, has cultural heritage dating back to antiquity. Kuwait City, the capital, is known for its modern architecture, ranging from skyscrapers to the striking Kuwait Towers, water towers whose design recalls the tiled domes of a classic mosque. The Tareq Rajab Museum houses a rich collection of ethnographic artifacts and Islamic art.
+
+Other Kuwait City attractions include the Grand Mosque, accommodating thousands, the traditional Al-Mubarakiya Souk and the expansive upscale shopping mall, The Avenues. Its residential Salmiya district has a small public beach and the Scientific Center, an aquarium and museum with traditional sailboats on display. Just offshore from Kuwait City, ruins from the Mesopotamian era can be seen on Failaka Island. Beyond the capital, Kuwait is mostly arid desert dotted by oil wells, with a few beach resorts on the southern coast.
+
+"</string>
+    <string name="Korea_Info">"Country in East Asia
+
+South Korea, an East Asian nation on the southern half of the Korean Peninsula, shares one of the world’s most heavily militarized borders with North Korea. It’s equally known for its green, hilly countryside dotted with cherry trees and centuries-old Buddhist temples, plus its coastal fishing villages, sub-tropical islands and high-tech cities such as Seoul, the capital.
+
+Seoul’s attractions include futuristic Dongdaemun Design Plaza, a curving convention hall; Gyeongbokgung Palace, which once had more than 7,000 rooms; the ritzy Gangnam neighborhood; and Lotte World, an indoor-outdoor amusement park. To the north lies the DMZ buffer zone where visitors can peer into North Korea. In the south, the city of Busan is known for the high-rise-lined Haeundae Beach and mountainside Beomeosa Temple. The city of Gyeongju features royal tombs and an observatory from the Silla dynas
+lebrations. Scotland’s distilleries have been producing the iconic ‘scotch’ whisky for centuries.
+ty. Jeju Island is a honeymoon destination of beaches, waterfalls, volcanic craters and lava caves.
+"</string>
+    <string name="Luxembourg_Info">"Country in Europe
+
+Luxembourg is a small European country, surrounded by Belgium, France and Germany. It’s mostly rural, with dense Ardennes forest and nature parks in the north, rocky gorges of the Mullerthal region in the east and the Moselle river valley in the southeast. Its capital, Luxembourg City, is famed for its fortified medieval old town perched on sheer cliffs.
+
+Luxembourg City, fortified by several different European rulers, was strategically important for centuries. Gates, forts, and an 18th-century tunnel network – the Bock Casemates – remain. The Chemin de la Corniche is a walkway along the 17th-century ramparts. Elsewhere, dedicated hiking and cycling trails wind through the countryside, home to medieval castles such as Bourscheid and Vianden. Mondorf-les-Bains is a popular spa town. The southeastern Moselle valley is known for its vineyards, water sports and river cruises. Memorials and museums across the country document the turbulent events of WWII.
+
+"</string>
+    <string name="Malaysia_Info">"Country in Asia
+
+Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences. The capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts such as Bukit Bintang and skyscrapers such as the iconic, 451m-tall Petronas Twin Towers.
+
+Peninsular Malaysia’s west coast is home to Malacca, a former colonial port known as a center of Chinese-Malay Peranakan culture, and to Langkawi island, famous for beach resorts. Penang Island’s capital, George Town, is full of temples and street-food stalls. Peninsular Malaysia’s east coast is known for beach resorts, plus diving and snorkeling at Tioman, Redang and the Perhentian islands. Malaysian Borneo is covered largely in tropical rainforest with diverse wildlife (including orangutans), and offers many beaches, scuba diving off Sipadan Island and the city of Kota Kinabalu, gateway to Mount Kinabalu.
+
+
+"</string>
+    <string name="Mauritius_Info">"Country in East Africa
+
+Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox. Capital Port Louis has sites such as the Champs de Mars horse track, Eureka plantation house and 18th-century Sir Seewoosagur Ramgoolam Botanical Gardens.
+
+The northern village of Grand Baie is known for cosmopolitan beach resorts, snorkeling and game fishing. Tamarin Bay is a surf spot, while the nearby town of Flic-en-Flac has luxury hotels and coral diving caves. In the southeast are ruins of Dutch fortifications at Vieux Grand Port. Mahébourg has a popular market with stands serving the island’s distinctive food, with Creole, Chinese, Indian and European influences. Île aux Aigrettes Nature Reserve is home of the rare pink pigeon. In the east is Île aux Cerfs, a private island with a championship golf course.
+"</string>
+    <string name="Morocoo_Info">"Country in North Africa
+
+Morocco, a North African country bordering the Atlantic Ocean and Mediterranean Sea, is distinguished by its Berber, Arabian and European cultural influences. Marrakesh’s medina, a mazelike medieval quarter, offers entertainment in its Djemaa el-Fna square and souks (marketplaces) selling ceramics, jewelry and metal lanterns. The capital Rabat’s Kasbah of the Udayas is a 12th-century royal fort overlooking the water.
+
+Casablanca is home to Hassan II Mosque, an Islamic landmark with a 210m minaret, and the city of Fes is notab
+"</string>
+    <string name="Netherlands_Info">"Country in Europe
+
+The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields, windmills and cycling routes. Amsterdam, the capital, is home to the Rijksmuseum, Van Gogh Museum and the house where Jewish diarist Anne Frank hid during WWII. Canalside mansions and a trove of works from artists including Rembrandt and Vermeer remain from the city's 17th-century "Golden Age."
+
+Rotterdam is a major port city with bold modern architecture. The university town of Utrecht is home to lively canalside cafes and the 14th-century Dom Tower. Southern Maastricht has a vibrant culinary scene, old churches and medieval city walls. In the north, the countryside between Leiden and Den Helder is one of the most well-known places to see tulip fields and windmills. The seaside towns of the Wadden (Frisian) Islands are busy summer resorts with a quirky local pastime, wadlopen (mudflat walking).
+"</string>
+    <string name="New_Zealand_Info">"Country in Oceania
+
+New Zealand is a country in the southwestern Pacific Ocean consisting of 2 main islands, both marked by volcanoes and glaciation. Capital Wellington, on the North Island, is home to Te Papa Tongarewa, the expansive national museum. Wellington’s dramatic Mt. Victoria, along with the South Island’s Fiordland and Southern Lakes, stood in for mythical Middle Earth in Peter Jackson’s "Lord of the Rings" films.
+
+Across Cook Strait, the South Island's crags and fiords – including Milford Sound with its 1,200m vertical sides – invite skiing, bungee jumping and trekking. Rotorua is known for its natural hot springs and geysers, and its Māori Arts and Crafts Institute of Te Puia chronicles the history and culture of the indigenous Maori people. Marlborough's vineyards produce distinctive Sauvignon Blancs and Pinot Noirs. Auckland, known for sailing, is nicknamed the "City of Sails." The nation’s rugby union team, the All Blacks, traditionally dominate world rugby.
+
+"</string>
+    <string name="Oman_Info">"Country in the Middle East
+
+Oman, a nation on the Arabian Peninsula, has terrain encompassing desert, riverbed oases and long coastlines on the Persian (Arabian) Gulf, Arabian Sea and Gulf of Oman. Wahiba Sands is a region of dunes inhabited by Bedouins. The port capital, Muscat, is home to the massive, contemporary Sultan Qaboos Grand Mosque, and the old waterfront Muttrah quarter, with a labyrinthine souk and busy fish market.
+
+Also in Muscat is the Corniche seaside promenade, which has views of 16th-century Portuguese forts, Al Jalali and Mirani, that loom over the harbor. Other fortresses dot the country, including the adobe stronghold of Bahla and the cylindrical castle tower of Nizwa. In the north, Jebel Shams, the country's highest mountain, overlooks Wadi Ghul, a gorge with vertical cliff faces. Coastal attractions range from turtle nesting grounds on Masirah Island to the beach and diving town of Salalah, also known for its banana plantations and lush vegetation during monsoon season.
+"</string>
+    <string name="Pakistan_Info">"Country in the South Asia
+        The governments efforts to promote tourism promotion have started yielding results as Traveller by Condè Nast, one of the world's best travel portals, has listed Pakistan as one of the top tourist destinations for 2020.
+
+The adventure traveller's must-visit goes from strength to strength, said the world's leading travel magazine while highlighting Pakistan's scenic and mesmerizing tourist attractions.
+
+Outlining  the adventure tourism potential in the country, the magazine wrote: Pakistan has more peaks taller than 22,965ft than China and Nepal combined, making it an almost magnetic spot for adventure travellers and intrepid hikers.
+
+Visitors can follow in Michael Palin's steps while traversing the 12,250ft Shandur Pass, home to the world's highest polo field, or meet with the Kalash people of the Hindu Kush, famed for their cowrie-shell headdresses and brighter-than-bright embroidery, it noted."</string>
+
+    <string name="Peru_Info">"Country in South America
+
+Peru is a country in South America that's home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains. The region around Machu Picchu, including the Sacred Valley, Inca Trail and colonial city of Cusco, is rich in archaeological sites. On Peru’s arid Pacific coast is Lima, the capital, with a preserved colonial center and important collections of pre-Columbian art.
+
+In southern Peru, vast Lake Titicaca (shared with Bolivia) offers sapphire waters and folkloric festivals at high altitude. The city of Arequipa is popular for outdoor recreation, such as climbing volcanoes and viewing Andean condors at Colca Canyon. The Sacred (Urubamba) Valley has many hiking, rafting and mountain-biking opportunities. In the southern desert, small planes fly visitors over the Nazca Lines, huge ancient pictograms. In the northeast, Iquitos is the gateway to Peru’s Amazon basin.
+"</string>
+    <string name="Philippines_Info">"Country in Asia
+The Philippines is a Southeast Asian country in the Western Pacific, comprising more than 7,000 islands. Its capital, Manila, is famous for its waterfront promenade and centuries-old Chinatown, Binondo. Intramuros, a walled city in colonial times, is the heart of Old Manila. It’s home to the baroque 17th-century San Agustin Church as well as Fort Santiago, a storied citadel and military prison.
+
+North of Manila, the Cordillera Central Mountains are popular for hiking, while the Ifugao province is famous for the rice terraces carved into its landscape. Remote Palawan province and its offshore Calamian Islands have palm-fringed beaches and turquoise lakes, plus coral reef diving. Cebu island is another celebrated diving destination. The tiny island of Boracay offers upscale beachfront resorts and a range of water sports. Bohol province is known for its cluster of more than 1,000 uniform Chocolate Hills and tiny Philippine tarsiers. Sports such as whitewater rafting and zip-lining are available throughout the country.
+"</string>
+    <string name="Poland_Info">"Country in Europe
+
+Poland is an eastern European country on the Baltic Sea known for its medieval architecture and Jewish heritage. Warsaw, the capital, has shopping and nightlife, plus the Warsaw Uprising Museum, honoring the city’s WWII-era resistance to German occupation. In the city of Kraków, 14th-century Wawel Castle rises above the medieval old town, home to Cloth Hall, a Renaissance trading post in Rynek Glówny (market square).
+
+Nearby is the Auschwitz-Birkenau concentration camp memorial, and vast Wieliczka Salt Mine, with underground halls and tunnels. The Baltic seacoast features beach resorts, the historic port city of Gdańsk and Gothic Malbork Castle, now a museum. Białowieża National Park preserves one of the last parcels of primeval forest in Europe, and is home to European bison. The Masurian Lake District offers swimming and boating. The Tatra Mountains, part of the Carpathians, are a skiing and trekking destination. The town of Zakopane has rustic wood chalets, horse-drawn sleighs and rafting on the Dunajec River
+
+"</string>
+    <string name="Portugal_Info">"Portugal is a southern European country on the Iberian Peninsula, bordering Spain. Its location on the Atlantic Ocean has influenced many aspects of its culture: salt cod and grilled sardines are national dishes, the Algarve's beaches are a major destination and much of the nation’s architecture dates to the 1500s–1800s, when Portugal had a powerful maritime empire.
+
+In the mid-Atlantic, Portugal's volcanic Azores islands are popular for trekking and whale-watching. The island of Madeira is known for a mild winter climate, its namesake fortified wine and trails along mountain aqueducts. On the mainland, capital Lisbon has São Jorge Castle atop the medieval Alfama district, with views of the Tagus estuary. To the south are the whitewashed villages and wild beaches of the Alentejo. In the north, Porto has cobbled streets and port wine cellars by the river. Inland from there are villages of the Minho and steep, terraced vineyards of the Douro.
+"</string>
+    <string name="Russia_Info">"Russia, the world’s largest nation, borders European and Asian countries as well as the Pacific and Arctic oceans. Its landscape ranges from tundra and forests to subtropical beaches. It’s famous for Moscow's Bolshoi and St. Petersburg's Mariinsky ballet companies. St. Petersburg, founded by Russian leader Peter the Great, has the baroque Winter Palace, now housing part of the State Hermitage Museum’s art collection.
+
+Capital city Moscow is the site of the Kremlin, a walled citadel that’s home to the president, and Red Square, backed by the colorful onion domes of St. Basil’s Cathedral. Volga River cruises pass through the Golden Ring, a group of well-preserved towns dating back to medieval times, including Suzdal. Scenic Trans-Siberian Railway journeys stop at Siberia’s Lake Baikal, the earth’s deepest lake. Black Sea resort towns like Sochi are popular for beachgoing. Skiing and climbing are the top draws in the nearby Caucasus range, best known for Mt. Elbrus, Europe's highest mountain.
+
+"</string>
+    <string name="Scotland_Info">"Country of the United Kingdom
+
+Scotland, the U.K.’s northernmost country, is a land of mountain wildernesses such as the Cairngorms and Northwest Highlands, interspersed with glacial glens (valleys) and lochs (lakes). Its major cities are Edinburgh, the capital, with its iconic hilltop castle, and Glasgow, famed for its vibrant cultural scene. Scotland is also famous for golf, the game first played at the Old Course at St Andrews in the 1400s.
+
+Ancient remains like the Isle of Lewis’ 5,000-year-old Callanish Stones are peppered across hundreds of coastal islands. Glasgow’s grand Kelvingrove Art Gallery and Museum, opened in 1901, provides an eclectic summary of the nation’s art, history and archaeology. Edinburgh’s summer arts festivals draw visitors from across the world. Loch Ness is famously home to a legendary 'monster.' The 18th-century Romantic poet Robert Burns, a national hero, has his own distinctive celebration, soon after the enthusiastic Hogmanay (New Year's Eve)"</string>
+    <string name="Seychelles_Info">"Country in East Africa
+
+The Seychelles is an archipelago of 115 islands in the Indian Ocean, off East Africa. It's home to numerous beaches, coral reefs and nature reserves, as well as rare animals such as giant Aldabra tortoises. Mahé, a hub for visiting the other islands, is home to capital Victoria. It also has the mountain rainforests of Morne Seychellois National Park and beaches, including Beau Vallon and Anse Takamaka.
+
+The granite Inner Islands include Praslin, with the renowned Anse Georgette beach, studded with sculpted rock formations. Seychelles Black Parrots are found in the Vallée de Mai Nature Reserve. On laid-back La Digue, bicycles are the main mode of transport, and rare birds inhabit the Veuve Nature Reserve. The remote and largely uninhabited Outer Islands are coral atolls and sand cays, such as Alphonse and Desroches, accessed by light plane or boat. The Seychelles have numerous resorts, spa hotels and self-catering options. The local Creole cuisine blends African, European, Indian and Chinese influences.
+"</string>
+    <string name="South_Africa_Info">"Country in Southern Africa
+
+South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, beneath flat-topped Table Mountain.
+
+The stark northwestern Kalahari is a semiarid savannah that’s home to leopards, cheetahs and several game reserves. In KwaZulu-Natal province lie the Drakensberg Mountains and the Amphitheatre, a dramatic semicircular cliff with the Tugela Falls at the top. Major urban areas include Johannesburg and the township of Soweto, where Nelson Mandela worked to end apartheid. Durban’s Golden Mile has a refurbished promenade and is famous for its surfing beaches. Northeastern Sun City is a huge resort complex of casinos and golf courses. Capital Pretoria features key historic Transvaal sites such as the Voortrekker Monument and Kruger House.
+
+"</string>
+    <string name="Spain_Info">"Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters. Segovia has a medieval castle (the Alcázar) and an intact Roman aqueduct. Catalonia’s capital, Barcelona, is defined by Antoni Gaudí’s whimsical modernist landmarks like the Sagrada Família church.
+
+In Northern Spain, Basque Country is known for a rich culinary culture and Frank Gehry’s Guggenheim Museum in Bilbao. Santiago de Compostela is a holy pilgrimage city. Navarra’s capital, Pamplona, is famed for its annual running of the bulls. Eastern Spain’s Valencia is celebrated for its paella (a rice dish). In the south, Andalusia is known as Picasso's birthplace (Málaga), for bullfighting and flamenco (Seville), and for Moorish landmarks including Córdoba’s Mezquita mosque-cathedral and Granada’s Alhambra palace. Spanish beach destinations include the Mediterranean Balearic Islands, including Ibiza, and the Canaries, off Africa.
+"</string>
+    <string name="Sri_Lanka_Info">"Country in South Asia
+
+Sri Lanka (formerly Ceylon) is an island nation south of India in the Indian Ocean. Its diverse landscapes range from rainforest and arid plains to highlands and sandy beaches. It’s famed for its ancient Buddhist ruins, including the 5th-century citadel Sigiriya, with its palace and frescoes. The city of Anuradhapura, Sri Lanka's ancient capital, has many ruins dating back more than 2,000 years.
+
+The modern capital, Colombo, is a gateway to beach resorts such as Bentota in the south and west, as well as to Galle and its colonial old town and fort. Inland, the Golden Temple of Dambulla is a cave complex adorned with Buddhist paintings and statues. In the Central Highlands, an area of biodiverse rainforest and tea plantations, the vibrant city of Kandy is home to the Temple of the Tooth shrine and its associated Esala Perahera festival. Pilgrims climb 2,243m-tall Adam’s Peak, with the Sacred Footprint rock formation near its summit. To the southeast, Yala National Park shelters elephant herds and leopards.
+
+"</string>
+    <string name="Saudi_Arabia_Info">"Country in the Middle East
+
+Saudi Arabia is a desert country encompassing most of the Arabian Peninsula, with Red Sea and Persian (Arabian) Gulf coastlines. Known as the birthplace of Islam, it’s home to the religion’s 2 most sacred mosques: Masjid al-Haram, in Mecca, destination of the annual Hajj pilgrimage, and Medina’s Masjid an-Nabawi, burial site of the prophet Muhammad. Riyadh, the capital, is a skyscraper-filled metropolis.
+
+In Riyadh’s center is the earthen-brick Masmak Fortress, as well as the National Museum, whose facade was inspired by sand dunes outside town. The city's upscale malls include Kingdom Centre, with its 99th-floor Skybridge observation deck. In the country’s northwest are the Mada'in Saleh ruins, dating to the 1st century B.C., with massive tomb monuments from the Nabataean Kingdom. Vibrant Jeddah, on the Red Sea coast, has traditional souks, busy beaches and reef diving. In the southwest, Asir National Park’s mountains have trails. The Saudi Aramco Exhibit, in the port city Dhahran, is a museum dedicated to the Saudi oil industry.
+
+
+"</string>
+    <string name="Switzerland_Info">"Country in the Middle East
+
+Saudi Arabia is a desert country encompassing most of the Arabian Peninsula, with Red Sea and Persian (Arabian) Gulf coastlines. Known as the birthplace of Islam, it’s home to the religion’s 2 most sacred mosques: Masjid al-Haram, in Mecca, destination of the annual Hajj pilgrimage, and Medina’s Masjid an-Nabawi, burial site of the prophet Muhammad. Riyadh, the capital, is a skyscraper-filled metropolis.
+
+In Riyadh’s center is the earthen-brick Masmak Fortress, as well as the National Museum, whose facade was inspired by sand dunes outside town. The city's upscale malls include Kingdom Centre, with its 99th-floor Skybridge observation deck. In the country’s northwest are the Mada'in Saleh ruins, dating to the 1st century B.C., with massive tomb monuments from the Nabataean Kingdom. Vibrant Jeddah, on the Red Sea coast, has traditional souks, busy beaches and reef diving. In the southwest, Asir National Park’s mountains have trails. The Saudi Aramco Exhibit, in the port city Dhahran, is a museum dedicated to the Saudi oil industry.
+
+
+"</string>
+    <string name="Thailand_Info">"Country in Asia
+
+Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew). Nearby beach resorts include bustling Pattaya and fashionable Hua Hin.
+
+Offshore islands include Ko Samui and Phuket, with palm-fringed beaches and scuba diving, while Ko Pha Ngan is famed for raucous full-moon parties. The Phang Nga Bay features craggy limestone karsts rising from its waters. In the mountainous north, the city of Chiang Mai is known for its historic Old Town and hill-tribe handicrafts. Archaeological sites at Ayutthaya and Sukhothai preserve the ruins of historical temples and palaces, while national parks Khao Yai and Khao Sok offer rainforest trekking and wildlife viewing. Aromatic regional cuisines offer a complex blend of flavors, often with fiery spice.
+
+"</string>
+    <string name="Turkey_Info">"Country in the Middle East
+
+Turkey is a nation straddling eastern Europe and western Asia with cultural connections to ancient Greek, Persian, Roman, Byzantine and Ottoman empires. Cosmopolitan Istanbul, on the Bosphorus Strait, is home to the iconic Hagia Sophia, with its soaring dome and Christian mosaics, the massive 17th-century Blue Mosque and the circa-1460 Topkapı Palace, former home of sultans. Ankara is Turkey’s modern capital.
+
+Major resorts include Antalya, a gateway to the southern Mediterranean area known as both the Turkish Riviera and the Turquoise Coast, and the Bodrum and Çesme peninsulas, both on the Aegean. Archaeological sites of note include the remnants of Troy and Pergamon, the Roman ruins at Hierapolis and, more extensively, the ancient city of Ephesus. The semi-arid central region of Cappadocia, especially Göreme, is known for "fairy chimneys" (tall, cone-shaped rock formations), Bronze Age cave dwellings that became early Christian churches and the Derinkuyu and Kaymakli underground cities. Pamukkale is known for its travertine hot springs.
+"</string>
+    <string name="United_Kingdom_Info">"Country in Europe
+
+The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge.
+
+Scotland is a land of renowned whisky distillers and golf courses, typified by the 15th-century Old Course at St Andrews. It’s also known for its Highland mountains, offshore islands like Skye and Lewis, and the legendary monster of Loch Ness. Wales has mountainous Snowdonia National Park, miles of beaches and castles at Cardiff, Caernarfon, Caerphilly and Conwy. Northern Ireland is known for Celtic folk music, the lush Glens of Antrim and a craggy coastline featuring the Giant’s Causeway, a striking natural formation of hexagonal rock columns.
+"</string>
+    <string name="Uzbekistan_Info">"Country in Central Asia
+
+Uzbekistan is a Central Asian nation and former Soviet republic. It's known for its mosques, mausoleums and other sites linked to the Silk Road, the ancient trade route between China and the Mediterranean. Samarkand, a major city on the route, contains a landmark of Islamic architecture: the Registan, a plaza bordered by 3 ornate, mosaic-covered religious schools dating to the 15th and 17th centuries.
+
+Also in Samarkand are Shah-i-Zinda, a street lined with lavishly decorated mausoleums that are Muslim pilgrimage sites, and Gur-e-Amir, the towering tomb of the Timurid Empire's founder. Bukhara, a Silk Road oasis city, has landmarks including the Ark, ruins of a 5th-century royal compound now housing museums, and the 16th-century mosque Maghoki-Attar, built atop centuries-old sacred sites. To the north and west lie the vast Kyzylkum Desert, the shrinking Aral Sea lake and the city of Khiva, whose walled old town contains 18th- and 19th-century palaces and mosques.
+"</string>
+    <string name="UAE_Info">"Country in the Middle East
+
+The United Arab Emirates is an Arabian Peninsula nation settled mainly along the Persian (Arabian) Gulf. The country is a federation of 7 emirates. Abu Dhabi, the island capital, is home to Sheikh Zayed Grand Mosque, with crystal chandeliers and room for 40,000 worshipers. Dubai is the site of ultramodern Burj Khalifa tower, enormous shopping centers and extravagant entertainment attractions.
+
+The conservative emirate and city of Sharjah offers many museums and a Heritage Area of restored homes. In Al Ain, a lush inland oasis belonging to Abu Dhabi, there’s Al Ain National Museum, artifacts dating back to the Bronze Age and the hot springs of Green Mubazzarah. The emirate of Ras Al-Khaimah is favored for its beaches, while Hatta is a picturesque enclave of Dubai in the Hajar Mountains. The emirate of Fujairah offers water sports on the Gulf of Oman. All over the federation, tour companies offer desert safaris, ranging from daytime dune and camel rides to sunset dinners, plus overnight trips to Bedouin camps.
+"</string>
+    <string name="USA_Info">"Country in North America
+
+The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.
+
+Las Vegas is the gambling and entertainment mecca; New Orleans is famous for jazz and Mardi Gras; Boston features American Revolution sites; San Francisco is home to the Golden Gate Bridge; and Orlando hosts Walt Disney World. California’s coastline is lined with beaches, while the Rocky Mountains are packed with ski resorts. Yellowstone’s geysers, Yosemite’s towering waterfalls, and the vast Grand Canyon are national park highlights. Foods, as varied as the weather, include iconic hamburgers, New York pizza, Texas barbecue, New England seafood, and Philadelphia cheesesteaks.
+"</string>
+    <string name="Vitnam_Info">"Country in Asia
+
+Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas and bustling cities. Hanoi, the capital, pays homage to the nation’s iconic Communist-era leader, Ho Chi Minh, via a huge marble mausoleum. Ho Chi Minh City (formerly Saigon) has French colonial landmarks, plus Vietnamese War history museums and the Củ Chi tunnels, used by Viet Cong soldiers.
+
+Hội An is known for its mix of architectural styles and eras, including the iconic Japanese Covered Bridge. Huế has the massive Citadel, built by the Nguyen Dynasty. The Mekong Delta, a maze of rivers and islands, has floating markets and Khmer pagodas. Junk boat tours and sea kayaking expeditions traverse the calm waters of Hạ Long Bay, home to thousands of towering limestone islands. The beach resorts of Phú Quốc Island, Nha Trang and Mũi Né offer diving, sunbathing and water sports, while the northern mountains around Sapa are a trekking destination.
+
+"</string>
+    <string name="Sweden_Info">"Country in Europe
+
+Sweden is a Scandinavian nation with thousands of coastal islands and inland lakes, along with vast boreal forests and glaciated mountains. Its principal cities, eastern capital Stockholm and southwestern Gothenburg and Malmö, are all coastal. Stockholm is built on 14 islands. It has more than 50 bridges, as well as the medieval old town, Gamla Stan, royal palaces and museums such as open-air Skansen.
+
+Malmö, linked to Copenhagen by the Oresund bridge, has a network of canals and parks. Port city Gothenburg is a gateway for exploring the islands and seal colonies of the Väderöarna Archipelago. Northern Lapland is known for its indigenous Sami culture, the Northern Lights and Jukkasjärvi’s ice hotel. Vikingabyn is a reconstructed 10th-century Viking village on the island of Gotland. Summer days are long and outdoor midsummer celebrations are a national tradition. Inland holiday cabins are bases for fishing, hiking and sailing. Freezing winters offer skiing at numerous resorts, including Åre and Sälen.
+
+"</string>
+    <string name="Serbia_Info">"Country in the Balkans
+
+Serbia is a country on southeast Europe's Balkan peninsula with northern plateaus and mountains with ski resorts to the south. Capital city Belgrade is home to Communist-era architecture and Kalemegdan Park, site of Belgrade Fortress, held successively by the Roman, Byzantine and Ottoman empires. Stari Grad, the old city, is home to 19th-century mansions, plus opera and ballet at Narodno Pozorište (national theater).
+
+Up the Danube River from Belgrade, the city of Novi Sad hosts the massive, annual EXIT pop-music festival, which takes place on the grounds of Petrovaradinska Tvrđava, a hilltop fort with underground tunnels. Across the river is Fruška Gora, a national park that’s home to hiking trails and more than a dozen Serbian Orthodox monasteries, most dating to the 1500s. Farther south is the Kopaonik mountain range, famous for its ski resort and national park. Zlatibor, in western Serbia, is another popular ski area that’s known for its party atmosphere.
+"</string>
+    <string name="Slovakia_Info">"Country in Europe
+
+Slovakia, officially the Slovak Republic, is a landlocked country in Central Europe. It is bordered by Poland to the north, Ukraine to the east, Hungary to the south, Austria to the west, and the Czech Republic to the west. Slovakia's territory spans about 49,000 square kilometres and is mostly mountainous. The population is over 5.4 million and consists mostly of Slovaks. The capital and largest city is Bratislava, second largest city is Košice. The official language is Slovak. The Slavs arrived in the territory of present-day Slovakia in the 5th and 6th centuries. In the 7th century, they played a significant role in the creation of Samo's Empire and in the 9th century established the Principality of Nitra, which was later conquered by the Principality of Moravia to establish Great Moravia. In the 10th century, after the dissolution of Great Moravia, the territory was integrated into the Principality of Hungary, which would become the Kingdom of Hungary in 1000. In 1241 and 1242, much of the territory was destroyed by the Mongols during their invasion of Central and Eastern Europe.
+
+"</string>
+    <string name="Nepal_Info">"Country in South Asia
+
+Nepal is a nation between India and Tibet known for its temples and Himalayan mountains, which include Mt. Everest. Kathmandu, the capital, has a mazelike old quarter filled with Hindu and Buddhist shrines. Around Kathmandu Valley are Swayambhunath, a Buddhist temple with resident monkeys; Boudhanath, a massive Buddhist stupa; Hindu temples and cremation grounds at Pashupatinath; and the medieval city of Bhaktapur.
+
+White-water rafting trips follow mountain rivers such as the Sun Koshi and Seti. In the southern Terai lowlands are Chitwan and Bardia national parks, home to rhinos and tigers, and jungle safaris by Jeep or on elephant-back. Lumbini, Buddha’s birthplace, has monasteries and monuments and is a Buddhist pilgrimage site. Annapurna Circuit treks start in Kathmandu and stop in Pokhara, a relaxed lakeside town with yoga centers and waterside cafes
+
+"</string>
+    <string name="Mexico_Info">"Country in North America
+
+Mexico is a country between the U.S. and Central America that's known for its Pacific and Gulf of Mexico beaches and its diverse landscape of mountains, deserts and jungles. Ancient ruins such as Teotihuacán and the Mayan city of Chichén Itzá are scattered throughout the country, as are Spanish colonial-era towns. In capital Mexico City, upscale shops, renowned museums and gourmet restaurants cater to modern life.
+
+The Yucatán Peninsula features beach resorts in Cancún and along the Riviera Maya, a stretch of white sand bordering the Mesoamerican Reef, making it popular for diving and snorkeling. The peninsula is also home to Cobá and Tulum, Mayan archaeological sites. Nearby in the Caribbean Sea is the island of Cozumel, renowned for its scuba diving. Other major seaside resorts include Cabo San Lucas and Puerto Vallarta. In the south, the states of Oaxaca and Chiapas are home to indigenous cultures that have maintained their traditional food, customs and crafts such as pottery and weaving.
+
+"</string>
+    <string name="Norway_Info">"Country in Europe
+
+Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums. Preserved 9th-century Viking ships are displayed at Oslo’s Viking Ship Museum. Bergen, with colorful wooden houses, is the starting point for cruises to the dramatic Sognefjord. Norway is also known for fishing, hiking and skiing, notably at Lillehammer’s Olympic resort.
+
+The glowing-red midnight sun and the Northern Lights are visible from Arctic Tromsø and Kirkenes. Also north of the Arctic Circle, the dramatic Lofoten Islands are popular for hiking, kayaking, wildlife-watching and cycling. Trondheim evokes Norway’s history and traditions with 11th-century Nidarosdomen Cathedral, built over the grave of former king St. Olaf, the country's patron saint. In Oslo, the Munch Museum focuses on the Norwegian painter’s masterpieces. The Norsk Folkemuseum is a collection of open-air historic buildings. Local cod, salmon, lingonberries and reindeer are classic ingredients in Norwegian cuisine.
+"</string>
+    <string name="Finland_Info">"Country in Europe
+
+Finland is a Northern European nation bordering Sweden, Norway and Russia. Its capital, Helsinki, occupies a peninsula and surrounding islands in the Baltic Sea. Helsinki is home to the 18th-century sea fortress Suomenlinna, the fashionable Design District and diverse museums. The Northern Lights can be seen from the country's Arctic Lapland province, a vast wilderness with national parks and ski resorts.
+
+Kayaking, boat tours and island hopping are popular activities around Helsinki and in the Archipelago Sea around Turku. The country's interior, with thousands of lakes, is a summer destination with holiday cabins, swimming, fishing and sailing. Built on an isthmus between 2 large lakes, the industrial city of Tampere is home to the Finnish Hockey Hall of Fame museum. Savonlinna is known for its 15th-century Olavinlinna island castle. East of Helsinki, Porvoo has a medieval old town and an Iron Age fortress. Finland is renowned for its saunas and iconic designs, including Marimekko fabrics, Iittala glass and Aalto furniture
+"</string>
+    <string name="Bahamas_Info">"Country in the Caribbean
+
+The Bahamas is a coral-based archipelago in the Atlantic Ocean. Its 700-plus islands and cays range from uninhabited to packed with resorts. The northernmost, Grand Bahama, and Paradise Island, home to many large-scale hotels, are among the best known. Scuba diving and snorkeling sites include the massive Andros Barrier Reef, Thunderball Grotto (used in James Bond films) and the black-coral gardens off Bimini.
+
+Nassau, the hilly capital city, features British colonial buildings, horse-drawn carriages and the woven crafts of the Straw Market. In the quiet group of islands known as the Exumas, yachts dot the aquamarine waters of Exuma Cays Land and Sea Park. Other Out Island highlights include Eleuthera, with its famed pink-sand beach, and San Salvador, believed to be the first new-world landing of Christopher Columbus. Bahamian cuisine highlights conch, often accompanied by cornmeal johnnycakes and rice with pigeon peas. Locals prepare all year for Junkanoo celebrations with raucous parades with ornate costumes.
+"</string>
+    <string name="Hungary_Info">"Country in Europe
+
+Hungary is a landlocked country in Central Europe. Its capital, Budapest, is bisected by the Danube River. Its cityscape is studded with architectural landmarks from Buda’s medieval Castle Hill and grand neoclassical buildings along Pest’s Andrássy Avenue to the 19th-century Chain Bridge. Turkish and Roman influence on Hungarian culture includes the popularity of mineral spas, including at thermal Lake Hévíz.
+
+Tihany is a hilltop resort on the southern shore of Lake Balaton, and the mountainous northern shore is an important wine-growing region. The northern spa town of Eger has an Ottoman-era thermal
+le for its medina, Fes el Bali. Elsewhere in Morocco, historic sites include earthen-walled Aït Benhaddou (a fortified trading post) and the Roman site Volubilis, which has ruins of a basilica and triumphal arch. Visitors can take camel rides across the Saharan dunes of Erg Chebbi and Erg Chigaga, or go hiking and skiing in the central Atlas Mountains. Beach destinations include the resorts of Essaouira, a windsurfer favorite, and Agadir, known for its crescent-shaped bay.
+
+bath, art nouveau architecture and a medieval castle with Turkish additions. In the south, the Old Town of Pécs is on a Roman site, and has an early Christian necropolis. Siklós Castle has 13th-century dungeons. Classical composer Joseph Haydn was music director at the rococo Esterházy Palace in northwestern Fertőd for many years.
+"</string>
+    <string name="Denmark_Info">"Country in Europe
+
+Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands. It's linked to nearby Sweden via the Öresund bridge. Copenhagen, its capital, is home to royal palaces and colorful Nyhavn harbor, plus the Tivoli amusement park and the iconic "Little Mermaid" statue. Odense is writer Hans Christian Andersen’s hometown, with a medieval core of cobbled streets and half-timbered houses.
+
+North of Copenhagen on Zealand Island is Kronborg Castle, portrayed as Elsinore in Shakespeare's "Hamlet." The Louisiana Museum of Modern Art in Humlebæk specializes in modern and contemporary painting. The city of Roskilde has a Gothic brick cathedral and the Vikingeskibshallen museum, with 11th-century Viking ships. On the mainland, the port city Aarhus is home to the Den Gamle By Museum, showcasing traditional buildings. Denmark, responsible for many iconic 20th-century designs of furniture, fashion and architecture, is also the birthplace of Lego. Billund’s Legoland theme park showcases the famous plastic brick toy
+"</string>
+    <string name="Colombia_Info">"Country in South America
+
+Colombia is a country at the northern tip of South America. It's landscape is marked by rainforests, Andes mountains and numerous coffee plantations. In the high-altitude capital, Bogotá, the Zona Rosa district is known for its restaurants and shops. Cartagena, on the Caribbean coast, has a walled colonial Old Town, a 16th-century castle and nearby coral reefs.
+
+Dramatic mountain scenery is found around the Eje Cafetero (also known as the Coffee Triangle), a laid-back region of coffee-plant-covered slopes and wild orchids, plus biking and horseback riding trails. There's rock climbing and hang gliding in Santander and whitewater rafting in the Barragán River rapids. Visitors can also explore the vast Amazon Rainforest (via regional hubs like Leticia). Near Santa Marta in the north are the ruins of Ciudad Perdida (also known as Teyuna), a "lost city" with ancient jungle-covered terraces. Close by, coastal Tayrona Natural Park offers diverse wildlife, snorkeling and surfing.
+
+
+"</string>
+    <string name="Qatar_Info">"Country in the Middle East
+
+Qatar is a peninsular Arab country whose terrain comprises arid desert and a long Persian (Arab) Gulf shoreline of beaches and dunes. Also on the coast is the capital, Doha, known for its futuristic skyscrapers and other ultramodern architecture inspired by ancient Islamic design, such as the limestone Museum of Islamic Art. The museum sits on the city’s Corniche waterfront promenade.
+
+Doha’s other sites include the Souq Waqif and its stalls offering traditional weaving and jewelry, and the Aspire Zone, a sports complex with running tracks and playing fields that hosts soccer games and other events. Beyond the capital, Arabian horses and camels race at tracks in small towns such as Al Shahaniya. There are public beaches along most of the coast, including at the oil towns of Dukhan and Fuwayrit, as well as at the Inland Sea, a protected lagoon surrounded by massive dunes.
+
+"</string>
+    <string name="Singapore_Info">"Country in Asia
+
+Singapore, an island city-state off southern Malaysia, is a global financial center with a tropical climate and multicultural population. Its colonial core centers on the Padang, a cricket field since the 1830s and now flanked by grand buildings such as City Hall, with its 18 Corinthian columns. In Singapore's circa-1820 Chinatown stands the red-and-gold Buddha Tooth Relic Temple, said to house one of Buddha's teeth.
+
+Other notable religious buildings include tranquil Lian Shan Shuang Lin Buddhist monastery, colourful Sri Mariamman Hindu temple and the massive Sultan Mosque. The neoclassical National Museum of Singapore contains exhibits on the city’s history and culture. There's shopping at the giant malls on Orchard Road and stylish boutiques in Kampong Glam. Sleek Marina Bay Sands SkyPark rises 200m above the water with sweeping city views. Little India offers colourful souvenirs. Arab Street is lined with fabric shops. Singapore is also known for an eclectic street-food scene, served up in Tiong Bahru and Maxwell Road.
+
+"</string>
+    <string name="Tunisia_Info">"Country in North Africa
+
+Tunisia is a North African country bordering the Mediterranean Sea and Sahara Desert. In the capital, Tunis, the Bardo Museum has archaeological exhibits from Roman mosaics to Islamic art. The city’s medina quarter encompasses the massive Al-Zaytuna Mosque and a thriving souk. To the east, the site of ancient Carthage features the Antonine Baths and other ruins, plus artifacts at the Carthage National Museum.
+
+Whitewashed coastal communities favored for their beaches, resorts and water sports include Monastir, also known for its 8th-century ribat (fort), and the island Djerba, which has a traditional Jewish quarter. The Great Mosque of Kairouan, a pilgrimage site dating to 670 A.D., is a landmark of Islamic architecture. El Djem has Roman ruins including the 3rd-century amphitheater of Thysdrus, the set for the movie "Gladiator," while the Berber town of Matmata and its subterranean desert homes appeared in scenes from the "Star Wars" films. The city of Sfax is known for its well preserved medina (old town) and souks.
+"</string>
+
+
+    <string-array name="Country">
+        <item>Select Country</item>
+        <item>Maldives</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Algeria</item>
+        <item>Bhutan</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Bahrain</item>
+        <item>Bulgaria</item>
+        <item>Cambodia</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Czech Republic</item>
+        <item>Croatia</item>
+        <item>Costa Rica</item>
+        <item>Egypt</item>
+        <item>Estonia</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Ice Land</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kenya</item>
+        <item>Kuwait</item>
+        <item>South Korea</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Mauritius</item>
+        <item>Morocoo</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Russia</item>
+        <item>Scotland</item>
+        <item>Seychelles</item>
+        <item>South Africa</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Saudi Arabia</item>
+        <item>Switzerland</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+        <item>United Kingdom</item>
+        <item>Uzbekistan</item>
+        <item>UAE</item>
+        <item>USA</item>
+        <item>Vietnam</item>
+        <item>Sweden</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Nepal</item>
+        <item>Mexico</item>
+        <item>Norway</item>
+        <item>Finland</item>
+        <item>Bahamas</item>
+        <item>Hungary</item>
+        <item>Denmark</item>
+        <item>Colombia</item>
+        <item>Qatar</item>
+        <item>Singapore</item>
+        <item>Tunisia</item>
+    </string-array>
+
+
+    <string name="test_Info">"Argentina is a massive South American nation with terrain encompassing Andes mountains, glacial lakes and Pampas grassland, the traditional grazing ground of its famed beef cattle. The country is famous for tango dance and music. Its big, cosmopolitan capital, Buenos Aires, is centered on the Plaza de Mayo, lined with stately 19th-century buildings including Casa Rosada, the iconic, balconied presidential palace.
+</string>
+
+    <string name="test_review">"Pick up, take away
+        Not dining in
+        Best pizza with reasonable prices
+</string>
+
+
+    <string-array name="Australia_cities">
+        <item>Select City</item>
+        <item>Alice Springs</item>
+        <item>Cairns</item>
+        <item>Canberra</item>
+        <item>Gold Coast</item>
+        <item>Hobart</item>
+        <item>Melbourne</item>
+        <item>Perth</item>
+        <item>Sydney</item>
+    </string-array>
+
+    <string-array name="Argentina_cities">
+        <item>Select City</item>
+        <item>Bariloche</item>
+        <item>Buenos Aires</item>
+        <item>Cordoba</item>
+        <item>Mar Del Plata</item>
+        <item>Mendoza</item>
+        <item>Ushuaia</item>
+    </string-array>
+
+
+    <string-array name="Austria_cities">
+        <item>Select City</item>
+        <item>East Austria</item>
+        <item>Hallstatt</item>
+        <item>Innsbruck</item>
+        <item>Salzburg</item>
+        <item>Vienna</item>
+    </string-array>
+
+    <string-array name="Belgium_cities">
+        <item>Select City</item>
+        <item>Antwerp</item>
+        <item>Bruges</item>
+        <item>Brussels</item>
+        <item>Ghent</item>
+        <item>Leuven</item>
+        <item>Liege</item>
+        <item>Mechelen</item>
+        <item>Mons</item>
+        <item>Namur</item>
+    </string-array>
+
+    <string-array name="Bhutan_cities">
+        <item>Select City</item>
+        <item>Paro</item>
+        <item>Punakha</item>
+        <item>Thimphu</item>
+        <item>Wangduephodrang</item>
+    </string-array>
+
+    <string-array name="Brazil_cities">
+        <item>Select City</item>
+        <item>Florianópolis</item>
+        <item>Foz do Lguaçu</item>
+        <item>Rio de Laneiro</item>
+        <item>Sao Paulo</item>
+    </string-array>
+
+    <string-array name="Colombia_cities">
+        <item>Select City</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Medellin</item>
+    </string-array>
+
+    <string-array name="Combodia_cities">
+        <item>Select City</item>
+        <item>Banlung</item>
+        <item>Battambang</item>
+        <item>Kampot</item>
+        <item>Koh Rong</item>
+        <item>Kratie</item>
+        <item>Sihanoukville</item>
+    </string-array>
+
+    <string-array name="Canada_cities">
+        <item>Select City</item>
+        <item>Montreal</item>
+        <item>Niagara Falls</item>
+        <item>Quebec City</item>
+        <item>The Canadian Rockies</item>
+        <item>The Yukon</item>
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Whistler</item>
+    </string-array>
+
+    <string-array name="China_cities">
+        <item>Select City</item>
+        <item>Beijing</item>
+        <item>Chengdu</item>
+        <item>Guilin</item>
+        <item>Shanghai</item>
+        <item>Xi an</item>
+    </string-array>
+
+
+    <string-array name="Egypt_cities">
+        <item>Select City</item>
+        <item>Alexandria</item>
+        <item>Cairo</item>
+        <item>Luxor</item>
+        <item>Sharm El Sheikh</item>
+        <item>Hurghada</item>
+    </string-array>
+
+    <string-array name="France_cities">
+        <item>Select City</item>
+        <item>Lyon</item>
+        <item>Nice</item>
+        <item>Paris</item>
+        <item>Strasbourg</item>
+    </string-array>
+
+    <string-array name="Germany_cities">
+        <item>Select City</item>
+        <item>Berlin</item>
+        <item>Cologne</item>
+        <item>Dresden</item>
+        <item>Frankfurter</item>
+        <item>Freiburg</item>
+        <item>Hamburg</item>
+        <item>Heidelberg</item>
+        <item>Kiel</item>
+        <item>Munich</item>
+        <item>Potsdam</item>
+    </string-array>
+
+
+    <string-array name="Greece_cities">
+        <item>Select City</item>
+        <item>Athens</item>
+        <item>Corfu</item>
+        <item>Meteora</item>
+        <item>Mykonos</item>
+        <item>Santorini</item>
+        <item>Thessaloniki</item>
+    </string-array>
+
+    <string-array name="India_cities">
+        <item>Select City</item>
+        <item>Agra</item>
+        <item>Chennai</item>
+        <item>Delhi</item>
+        <item>Jaipur</item>
+        <item>Mumbai</item>
+    </string-array>
+
+    <string-array name="Indonesia_cities">
+        <item>Select City</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Kuta</item>
+        <item>Ubud</item>
+        <item>Yogyakarta</item>
+    </string-array>
+
+    <string-array name="Ireland_cities">
+        <item>Select City</item>
+        <item>Dublin</item>
+        <item>Galway</item>
+        <item>Kilkenny</item>
+        <item>Killarney</item>
+        <item>Limerick</item>
+    </string-array>
+
+    <string-array name="Italy_cities">
+        <item>Select City</item>
+        <item>Bologna</item>
+        <item>Florenc</item>
+        <item>Genoa</item>
+        <item>Milan</item>
+        <item>Naples</item>
+        <item>Rome</item>
+        <item>Venice</item>
+        <item>Verona</item>
+    </string-array>
+
+    <string-array name="Japan_cities">
+        <item>Select City</item>
+        <item>Fukuoka</item>
+        <item>Hiroshima</item>
+        <item>Kyoto</item>
+        <item>Nagasaki</item>
+        <item>Nagoya</item>
+        <item>Osaka</item>
+        <item>Tokyo</item>
+        <item>Yokohama</item>
+    </string-array>
+
+
+    <string-array name="Kenya_cities">
+        <item>Select City</item>
+        <item>Amboseli</item>
+        <item>Maasai</item>
+    </string-array>
+
+    <string-array name="Korea_cities">
+        <item>Select City</item>
+        <item>Busan</item>
+        <item>Gyeongju</item>
+        <item>Jinhae</item>
+        <item>Seoul</item>
+    </string-array>
+
+
+    <string-array name="Malaysia_cities">
+        <item>Select City</item>
+        <item>Johor Bahru</item>
+        <item>Kota Kinabalu</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuching</item>
+        <item>Langkawi</item>
+        <item>Penang</item>
+    </string-array>
+
+    <string-array name="Netherlands_cities">
+        <item>Select City</item>
+        <item>Amsterdam</item>
+        <item>Delft</item>
+        <item>Haarlem</item>
+        <item>Maastricht</item>
+        <item>Rotterdam</item>
+        <item>Utrecht</item>
+    </string-array>
+
+    <string-array name="New_Zealand_cities">
+        <item>Select City</item>
+        <item>Auckland</item>
+        <item>Hamilton</item>
+        <item>Tauranga</item>
+        <item>Wellington</item>
+    </string-array>
+
+    <string-array name="Philippines_cities">
+        <item>Select City</item>
+        <item>Bacolod</item>
+        <item>Baguio</item>
+        <item>Cagayan de Oro</item>
+        <item>Manila</item>
+    </string-array>
+
+    <string-array name="Poland_cities">
+        <item>Select City</item>
+        <item>Gdansk</item>
+        <item>Krakow</item>
+        <item>Poznan</item>
+        <item>Warsaw</item>
+        <item>Wroclaw</item>
+    </string-array>
+
+    <string-array name="Portugal_cities">
+        <item>Select City</item>
+        <item>Aveiro</item>
+        <item>Braga</item>
+        <item>Coimbra</item>
+        <item>Lisbon</item>
+        <item>Porto</item>
+        <item>Sintra</item>
+    </string-array>
+
+    <string-array name="Russia_cities">
+        <item>Select City</item>
+        <item>Irkutsk</item>
+        <item>Moscow</item>
+        <item>Novosibirsk</item>
+        <item>Saint Petersburg</item>
+        <item>Vladivostok</item>
+        <item>Yekaterinburg</item>
+    </string-array>
+
+    <string-array name="Saudi_Arabia_cities">
+        <item>Select City</item>
+        <item>Dammam</item>
+        <item>Jeddah</item>
+        <item>Makkah</item>
+        <item>Medina</item>
+        <item>Riyadh</item>
+    </string-array>
+
+
+    <string-array name="Scotland_cities">
+        <item>Select City</item>
+        <item>Edinburgh</item>
+        <item>Falkirk</item>
+        <item>Perth</item>
+        <item>St_Andrews</item>
+    </string-array>
+
+    <string-array name="Scychelles_cities">
+        <item>Select City</item>
+        <item>Baie Ste Anne</item>
+        <item>Beau Vallon</item>
+        <item>Victoria</item>
+    </string-array>
+
+    <string-array name="South_Africa_cities">
+        <item>Select City</item>
+        <item>Cape Town</item>
+        <item>Durban</item>
+        <item>Johannesburg</item>
+        <item>Port Elizabeth</item>
+        <item>Pretoria</item>
+    </string-array>
+
+    <string-array name="Spain_cities">
+        <item>Select City</item>
+        <item>Barcelona</item>
+        <item>Bilbao</item>
+        <item>Cordoba</item>
+        <item>Granada</item>
+        <item>Ibiza</item>
+        <item>Las Palmas</item>
+        <item>Madrid</item>
+        <item>Malaga</item>
+        <item>Mallorca</item>
+        <item>San Sebastian</item>
+        <item>Seville</item>
+        <item>Toledo</item>
+        <item>Valencia</item>
+    </string-array>
+
+
+    <string-array name="Sri_Lanka_cities">
+        <item>Select City</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Hikkaduwa</item>
+        <item>Kandy</item>
+        <item>Negombo</item>
+        <item>Nuwara Eliya</item>
+    </string-array>
+
+
+    <string-array name="Switzerland_cities">
+        <item>Select City</item>
+        <item>Basel</item>
+        <item>Bellinzona</item>
+        <item>Bern</item>
+        <item>Geneva</item>
+        <item>Lausanne</item>
+        <item>Lucerne</item>
+        <item>Lugano</item>
+        <item>St_Gallen</item>
+        <item>Thun</item>
+        <item>Zurich</item>
+    </string-array>
+
+
+    <string-array name="Bahamas_cities">
+        <item>Select City</item>
+        <item>Lucaya</item>
+        <item>Matthew Town</item>
+        <item>Nassau</item>
+    </string-array>
+
+    <string-array name="Czech_Republic_cities">
+        <item>Select City</item>
+        <item>Cesky Krumlov</item>
+        <item>Prague</item>
+    </string-array>
+
+    <string-array name="Denmark_cities">
+        <item>Select City</item>
+        <item>Aalborg</item>
+        <item>Aarhus</item>
+        <item>Copenhagen</item>
+        <item>Frederiksberg</item>
+        <item>Odense</item>
+    </string-array>
+
+    <string-array name="Finland_cities">
+        <item>Select City</item>
+        <item>Helsinki</item>
+        <item>Jyvaskyla</item>
+        <item>Rovaniemi</item>
+        <item>Tampere</item>
+        <item>Turku</item>
+    </string-array>
+
+    <string-array name="Hungary_cities">
+        <item>Select City</item>
+        <item>Budapest</item>
+        <item>Debrecen</item>
+        <item>Eger</item>
+        <item>Pecs</item>
+        <item>Szeged</item>
+    </string-array>
+
+    <string-array name="IceLand_cities">
+        <item>Select City</item>
+        <item>Budapest</item>
+        <item>Debrecen</item>
+        <item>Reykjavik</item>
+        <item>Vik I Myrdal</item>
+    </string-array>
+
+
+    <string-array name="Luxembourg_cities">
+        <item>Select City</item>
+        <item>Echternach</item>
+        <item>Ettelbruck</item>
+    </string-array>
+
+    <string-array name="Mexico_cities">
+        <item>Select City</item>
+        <item>Cabo San Lucas</item>
+        <item>Cancun</item>
+        <item>Playa Del Carmen</item>
+        <item>Puebla</item>
+    </string-array>
+
+    <string-array name="Morocoo_cities">
+        <item>Select City</item>
+        <item>Agadir</item>
+        <item>Casablanca</item>
+        <item>Fez</item>
+        <item>Marrakech</item>
+        <item>Meknes</item>
+        <item>Tangier</item>
+    </string-array>
+
+
+    <string-array name="Nepal_cities">
+        <item>Select City</item>
+        <item>Bhaktapur</item>
+        <item>Kathmandu</item>
+        <item>Pokhara</item>
+    </string-array>
+
+
+    <string-array name="Norway_cities">
+        <item>Select City</item>
+        <item>Alesund</item>
+        <item>Bergen</item>
+        <item>Oslo</item>
+        <item>Stavanger</item>
+        <item>Trondheim</item>
+    </string-array>
+
+    <string-array name="Peru_cities">
+        <item>Select City</item>
+        <item>Arequipa</item>
+        <item>Cusco</item>
+        <item>Lima</item>
+        <item>Puno</item>
+    </string-array>
+
+
+    <string-array name="Serbia_cities">
+        <item>Select City</item>
+        <item>Belgrade</item>
+        <item>Kragujevac</item>
+        <item>Kraljevo</item>
+        <item>Novi sad</item>
+    </string-array>
+
+
+    <string-array name="Slovakia_cities">
+        <item>Select City</item>
+        <item>Banska Bystrica</item>
+        <item>Bratislava</item>
+        <item>Levoca</item>
+        <item>Nitra sad</item>
+    </string-array>
+
+
+    <string-array name="Sweden_cities">
+        <item>Select City</item>
+        <item>Gothenburg</item>
+        <item>Helsingborg</item>
+        <item>Karlskrona</item>
+        <item>Malmo</item>
+        <item>Stockholm</item>
+    </string-array>
+
+
+    <string-array name="Turkey_cities">
+        <item>Select City</item>
+        <item>Alanya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Bodrum</item>
+        <item>Bursa</item>
+        <item>Fethiye</item>
+        <item>Istanbul</item>
+        <item>Izmir</item>
+        <item>Edirne</item>
+        <item>Konya</item>
+        <item>Kusadasi</item>
+        <item>Trabzon</item>
+        <item>Urfa</item>
+        <item>Urgup</item>
+    </string-array>
+
+
+    <string-array name="UAE_cities">
+        <item>Select City</item>
+        <item>Abu Dhabi</item>
+        <item>Dubai</item>
+    </string-array>
+
+    <string-array name="United_Kingdom_cities">
+        <item>Select City</item>
+        <item>Bath</item>
+        <item>Birmingham</item>
+        <item>Brighton</item>
+        <item>Bristol</item>
+        <item>Glasgow</item>
+        <item>Liverpool</item>
+        <item>London</item>
+        <item>Manchester</item>
+        <item>Newcastle</item>
+        <item>Oxford</item>
+        <item>York</item>
+    </string-array>
+
+
+    <string-array name="USA_cities">
+        <item>Select City</item>
+        <item>Boston</item>
+        <item>Chicago</item>
+        <item>Honolulu</item>
+        <item>Las Vegas</item>
+        <item>Los Angeles</item>
+        <item>Miami</item>
+        <item>New York</item>
+        <item>Orlando</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>Washington</item>
+    </string-array>
+
+
+    <string-array name="Uzbekistan_cities">
+        <item>Select City</item>
+        <item>Andijan</item>
+        <item>Bukhara</item>
+        <item>Gulistan</item>
+    </string-array>
+
+    <string-array name="Vitnam_cities">
+        <item>Select City</item>
+        <item>Can Tho</item>
+        <item>Da Nang</item>
+        <item>Dalat</item>
+        <item>Hanoi</item>
+        <item>Ho Chi Minh City</item>
+        <item>Hoiz An</item>
+        <item>Hue</item>
+        <item>Nha Trang</item>
+    </string-array>
+
+
+    <string-array name="Thiland_cities">
+        <item>Select City</item>
+        <item>Ayutthaya</item>
+        <item>Bangkok</item>
+        <item>Chiang Mai</item>
+        <item>Chiang Rai</item>
+        <item>Hua Hin</item>
+        <item>Kanchanaburi</item>
+        <item>Krabi Town</item>
+        <item>Nong Khai</item>
+        <item>Pai</item>
+        <item>Pattaya</item>
+        <item>Phuket</item>
+    </string-array>
+
+
+    <string-array name="Pakistan_cities">
+        <item>Select City</item>
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Peshawar</item>
+        <item>Kashmir</item>
+        <item>Gwadar</item>
+    </string-array>
+
+
+    <string-array name="Bulgaria_cities">
+        <item>Select City</item>
+        <item>Nesebar</item>
+        <item>Plovdiv</item>
+        <item>Sofia</item>
+        <item>Varna</item>
+    </string-array>
+
+
+    <string-array name="Costa_Rice_cities">
+        <item>Select City</item>
+        <item>Arenal</item>
+        <item>Cahuita</item>
+        <item>Corcovado</item>
+        <item>Puerto Viejo</item>
+        <item>Tortuguero</item>
+    </string-array>
+
+    <string-array name="Croatia_cities">
+        <item>Select City</item>
+        <item>Dubrovnik</item>
+        <item>Split</item>
+        <item>Zadar</item>
+        <item>Zagreb</item>
+    </string-array>
+
+
+    <string-array name="Estonia_cities">
+        <item>Select City</item>
+        <item>Parnu</item>
+        <item>Tallinn</item>
+        <item>Tartu</item>
+    </string-array>
+
+    <string-array name="Seychelles_cities">
+        <item>Select City</item>
+        <item>Baie Ste Anne</item>
+        <item>Beau Vallon</item>
+        <item>Victoria</item>
+    </string-array>
+
+    <string-array name="Cambodia_cities">
+        <item>Select City</item>
+        <item>Banlung</item>
+        <item>Battambang</item>
+        <item>Kampot</item>
+        <item>Koh Rong</item>
+        <item>Kratie</item>
+        <item>Sihanoukville</item>
+    </string-array>
+
+    <string-array name="Sample_cities">
+        <item>Select City</item>
+    </string-array>
+
+    <string-array name="Qatar_cities">
+        <item>Qatar</item>
+    </string-array>
+
+    <string-array name="Singapore_cities">
+        <item>Singapore</item>
+    </string-array>
+
+    <string-array name="Maldives_cities">
+        <item>Maldives</item>
+    </string-array>
+
+    <string-array name="Oman_cities">
+        <item>Oman</item>
+    </string-array>
+
+    <string-array name="Mauritius_cities">
+        <item>Mauritius</item>
+    </string-array>
+
+    <string-array name="Bahrain_cities">
+        <item>Bahrain</item>
+    </string-array>
+
+    <string-array name="Kuwait_cities">
+        <item>Kuwait</item>
+    </string-array>
+
+    <string-array name="Jordan_cities">
+        <item>Jordan</item>
+    </string-array>
+
+    <string-array name="Algeria_cities">
+        <item>Algeria</item>
+    </string-array>
+
+    <string-array name="Tunisia_cities">
+        <item>Tunisia</item>
+    </string-array>
+
+    <string name="settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="change_the_language">Change The Language</string>
+    <string name="activate_notifications">Activate Notifications</string>
+    <string name="activate_location">Activate Location</string>
+    <string name="rate_the_app">Rate the App</string>
+    <string name="share_the_app">Share the App</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="weather_c">Weather C</string>
+    <string name="things_to_do">Things To Do</string>
+    <string name="favourite">Favourite</string>
+    <string name="nearby">Near By</string>
+    <string name="home">Home</string>
+
+
+    <string name="ar_settings">الإعدادات</string>
+    <string name="ar_email">البريد الإلكتروني</string>
+    <string name="ar_register">تسجيل</string>
+    <string name="ar_login">تسجيل الدخول</string>
+    <string name="ar_change_the_language">تغيير اللغة</string>
+    <string name="ar_activate_notifications">تنشيط الإخطارات</string>
+    <string name="ar_activate_location">تنشيط الموقع</string>
+    <string name="ar_rate_the_app">قيم التطبيق</string>
+    <string name="ar_share_the_app">شارك التطبيق</string>
+    <string name="ar_contact_us">اتصل بنا</string>
+    <string name="ar_change_profile_photo">تغيير صورة الملف الشخصي</string>
+    <string name="ar_sign_out">خروج</string>
+    <string name="ar_weather_c">طقس C</string>
+    <string name="ar_things_to_do">الأشياء الذي ينبغي فعلها</string>
+    <string name="ar_shopping">التسوق</string>
+    <string name="ar_restaurant">مطعم</string>
+    <string name="ar_cafes">مقاهي</string>
+    <string name="ar_favourite">مفضل</string>
+    <string name="ar_nearby">مجاور</string>
+    <string name="ar_home">الصفحة الرئيسية</string>
+
+
+</resources>
