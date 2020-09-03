@@ -95,6 +95,10 @@ dependencies {
     implementation 'com.github.ome450901:SimpleRatingBar:1.5.0'
     //Grid Layout
     implementation 'com.liuzhuang.opensource:afgridlayout:1.0.0'
+    //Smart TabLayout
+    implementation 'com.ogaclejapan.smarttablayout:library:2.0.0'
+    //Optional: see how to use the utility.
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0'
 
 
 }

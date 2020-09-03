@@ -3,7 +3,9 @@ package com.octaitsolutions.rahal.User.City;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.codesgood.views.JustifiedTextView;
@@ -13,17 +15,18 @@ public class CityInformationActivity extends AppCompatActivity {
 
     TextView name ;
     JustifiedTextView detail;
+    ImageView back;
 
     int country_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_city_information);
 
         name = findViewById(R.id.ci_name);
         detail = findViewById(R.id.ci_desc_justify);
+        back = findViewById(R.id.iv_back);
 
         country_name = getIntent().getIntExtra("name", 0);
         name.setText(country_name);
@@ -315,6 +318,14 @@ public class CityInformationActivity extends AppCompatActivity {
                 break;
 
         }
+
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override

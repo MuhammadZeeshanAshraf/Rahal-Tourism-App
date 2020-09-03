@@ -46,6 +46,7 @@ import com.willy.ratingbar.ScaleRatingBar;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -55,7 +56,7 @@ public class PlaceActivity extends AppCompatActivity {
 
     ImageView image;
     JustifiedTextView description, numRating;
-    TextView name , address , phone  , link , time;
+    TextView name , address , phone  , link , time , SeeMore;
     TouristLocation model;
     RatingBar starRating;
 
@@ -70,14 +71,15 @@ public class PlaceActivity extends AppCompatActivity {
     ScaleRatingBar scaleRatingBar;
 
     RecyclerView recyclerView;
-    ArrayList<Review> list;
+    ArrayList<Review> list , shortList;
     ReviewAdapter adapter;
+
+    int checker = 1;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_place);
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -93,10 +95,13 @@ public class PlaceActivity extends AppCompatActivity {
         model = (TouristLocation) i.getSerializableExtra("Location");
         hideKeyboard(PlaceActivity.this);
 
+
         list = new ArrayList<>();
+        shortList = new ArrayList<>();
         recyclerView = findViewById(R.id.review_list);
         image = findViewById(R.id.place_image);
 
+        SeeMore = findViewById(R.id.see_more_reviews);
         profileImage = findViewById(R.id.place_profile_image);
         comment = findViewById(R.id.place_comment_box);
         thumbUp = findViewById(R.id.place_thumb_up);
@@ -160,6 +165,24 @@ public class PlaceActivity extends AppCompatActivity {
             }
         });
 
+
+        SeeMore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                LinearLayoutManager layoutManager = new LinearLayoutManager(PlaceActivity.this, LinearLayoutManager.VERTICAL, false);
+
+                recyclerView.setLayoutManager(layoutManager);
+                recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+                adapter = new ReviewAdapter(PlaceActivity.this, list);
+
+                recyclerView.setAdapter(adapter);
+
+                SeeMore.setVisibility(View.GONE);
+
+            }
+        });
 
     }
 
@@ -289,18 +312,46 @@ public class PlaceActivity extends AppCompatActivity {
                                 String uri = dataSnapshot.child("Uri").getValue().toString();
 
 
+                                if(list.size() < 4)
+                                {
+                                    Review model = new Review(id , userId , name , comment , rating , uri);
+                                    list.add(model);
 
-                                Review model = new Review(id , userId , name , comment , rating , uri);
-                                list.add(model);
+                                    LinearLayoutManager layoutManager = new LinearLayoutManager(PlaceActivity.this, LinearLayoutManager.VERTICAL, false);
 
-                                LinearLayoutManager layoutManager = new LinearLayoutManager(PlaceActivity.this, LinearLayoutManager.VERTICAL, false);
+                                    recyclerView.setLayoutManager(layoutManager);
+                                    recyclerView.setItemAnimator(new DefaultItemAnimator());
 
-                                recyclerView.setLayoutManager(layoutManager);
-                                recyclerView.setItemAnimator(new DefaultItemAnimator());
+                                    adapter = new ReviewAdapter(PlaceActivity.this, list );
 
-                                adapter = new ReviewAdapter(PlaceActivity.this, list );
+                                    recyclerView.setAdapter(adapter);
 
-                                recyclerView.setAdapter(adapter);
+                                }else
+                                {
+                                    SeeMore.setVisibility(View.VISIBLE);
+
+
+                                    Review model = new Review(id , userId , name , comment , rating , uri);
+                                    list.add(model);
+
+                                    if(checker < 4)
+                                    {
+                                        shortList.add(model);
+                                        checker = checker + 1;
+                                    }
+
+
+                                    LinearLayoutManager layoutManager = new LinearLayoutManager(PlaceActivity.this, LinearLayoutManager.VERTICAL, false);
+
+                                    recyclerView.setLayoutManager(layoutManager);
+                                    recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+                                    adapter = new ReviewAdapter(PlaceActivity.this, shortList );
+
+                                    recyclerView.setAdapter(adapter);
+                                }
+
+
 
 
                             }

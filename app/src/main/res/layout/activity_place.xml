@@ -388,5 +388,17 @@
             android:padding="5dp" />
 
 
+        <TextView
+            android:id="@+id/see_more_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="See More"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </ScrollView>

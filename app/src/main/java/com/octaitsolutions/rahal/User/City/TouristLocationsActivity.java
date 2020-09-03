@@ -43,9 +43,9 @@ import java.util.Random;
 
 public class TouristLocationsActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView , rest_recyclerview , cafe_recyclerview , things_recyclerview;
-    private ArrayList<TouristLocation> list ,restList , cafeList , thingsList;
-    private TouristLocationAdapter adapter;
+    private RecyclerView recyclerView , rest_recyclerview , cafe_recyclerview , things_recyclerview , all_place_recyclerview;
+    private ArrayList<TouristLocation> list ,restList , cafeList , thingsList , allPlacesList;
+    private TouristLocationAdapter adapter , allAdapter;
 
     ImageView cityImage, info;
     ScrollView scrollView;
@@ -61,7 +61,7 @@ public class TouristLocationsActivity extends AppCompatActivity {
     int city_name;
     int city_image;
 
-    RelativeLayout catShopping  , catRestaurant , catCafe , catTings;
+    RelativeLayout catShopping  , catRestaurant , catCafe , catTings , catAll;
     ImageView back;
 
 
@@ -70,7 +70,6 @@ public class TouristLocationsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_tourist_locations);
 
         OpenWeatherMapHelper helper = new OpenWeatherMapHelper(getString(R.string.OPEN_WEATHER_MAP_API_KEY));
@@ -83,13 +82,16 @@ public class TouristLocationsActivity extends AppCompatActivity {
         catRestaurant= findViewById(R.id.cat_rest);
         catCafe = findViewById(R.id.cat_cafe);
         catTings = findViewById(R.id.cat_things);
+        catAll = findViewById(R.id.cat_all);
 
         weather = findViewById(R.id.tl_weather);
         cityImage = findViewById(R.id.tl_city_image);
         recyclerView = findViewById(R.id.tourist_location_recyclerview);
+        recyclerView.setVisibility(View.GONE);
 
         initializeVariables();
 
+        all_place_recyclerview = findViewById(R.id.cat_all_place_recyclerview);
         cafe_recyclerview = findViewById(R.id.cat_cafe_recyclerview);
         cafe_recyclerview.setVisibility(View.GONE);
         rest_recyclerview = findViewById(R.id.cat_rest_recyclerview);
@@ -123,6 +125,7 @@ public class TouristLocationsActivity extends AppCompatActivity {
         restList = new ArrayList<>();
         cafeList = new ArrayList<>();
         thingsList = new ArrayList<>();
+        allPlacesList = new ArrayList<>();
 
         city_name = getIntent().getIntExtra("name", 0);
         city_image = getIntent().getIntExtra("image", 0);
@@ -161,43 +164,90 @@ public class TouristLocationsActivity extends AppCompatActivity {
             }
         });
 
+        catAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                all_place_recyclerview.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+                rest_recyclerview.setVisibility(View.GONE);
+                cafe_recyclerview.setVisibility(View.GONE);
+                things_recyclerview.setVisibility(View.GONE);
+
+                catAll.setBackground(getResources().getDrawable(R.drawable.bg_round_corners));
+                catShopping.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catRestaurant.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catCafe.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catTings.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+            }
+        });
         catShopping.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                all_place_recyclerview.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.VISIBLE);
                 rest_recyclerview.setVisibility(View.GONE);
                 cafe_recyclerview.setVisibility(View.GONE);
                 things_recyclerview.setVisibility(View.GONE);
+
+                catAll.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catShopping.setBackground(getResources().getDrawable(R.drawable.bg_round_corners));
+                catRestaurant.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catCafe.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catTings.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+
             }
         });
 
         catRestaurant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                all_place_recyclerview.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.GONE);
                 rest_recyclerview.setVisibility(View.VISIBLE);
                 cafe_recyclerview.setVisibility(View.GONE);
                 things_recyclerview.setVisibility(View.GONE);
+
+                catAll.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catShopping.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catRestaurant.setBackground(getResources().getDrawable(R.drawable.bg_round_corners));
+                catCafe.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catTings.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
             }
         });
 
         catCafe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                all_place_recyclerview.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.GONE);
                 rest_recyclerview.setVisibility(View.GONE);
                 cafe_recyclerview.setVisibility(View.VISIBLE);
                 things_recyclerview.setVisibility(View.GONE);
+
+                catAll.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catShopping.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catRestaurant.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catCafe.setBackground(getResources().getDrawable(R.drawable.bg_round_corners));
+                catTings.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
             }
         });
 
         catTings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                all_place_recyclerview.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.GONE);
                 rest_recyclerview.setVisibility(View.GONE);
                 cafe_recyclerview.setVisibility(View.GONE);
                 things_recyclerview.setVisibility(View.VISIBLE);
+
+
+                catAll.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catShopping.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catRestaurant.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catCafe.setBackground(getResources().getDrawable(R.drawable.bg_round_corners_white));
+                catTings.setBackground(getResources().getDrawable(R.drawable.bg_round_corners));
             }
         });
 
@@ -298,6 +348,7 @@ public class TouristLocationsActivity extends AppCompatActivity {
         restList.clear();
         cafeList.clear();
         thingsList.clear();
+        allPlacesList.clear();
 
         rootRef.child("Shopping").child(selectedCountry).child(selectedCity).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -330,6 +381,8 @@ public class TouristLocationsActivity extends AppCompatActivity {
                                 , address , timing , link , location , description , uri,rating);
                                 list.add(model);
 
+                                allPlacesList.add(model);
+
                                 LinearLayoutManager layoutManager = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
 
                                 recyclerView.setLayoutManager(layoutManager);
@@ -338,6 +391,14 @@ public class TouristLocationsActivity extends AppCompatActivity {
                                 adapter = new TouristLocationAdapter(TouristLocationsActivity.this, list);
 
                                 recyclerView.setAdapter(adapter);
+
+                                allPlacesList.add(model);
+                                LinearLayoutManager layoutManagerTwo = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
+                                all_place_recyclerview.setLayoutManager(layoutManagerTwo);
+                                all_place_recyclerview.setItemAnimator(new DefaultItemAnimator());
+                                allAdapter= new TouristLocationAdapter(TouristLocationsActivity.this, allPlacesList);
+                                all_place_recyclerview.setAdapter(allAdapter);
+
 
 
                             }
@@ -370,6 +431,7 @@ public class TouristLocationsActivity extends AppCompatActivity {
         restList.clear();
         cafeList.clear();
         thingsList.clear();
+
 
         rootRef.child("Restaurant").child(selectedCountry).child(selectedCity).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -411,6 +473,12 @@ public class TouristLocationsActivity extends AppCompatActivity {
 
                                 rest_recyclerview.setAdapter(adapter);
 
+                                allPlacesList.add(model);
+                                LinearLayoutManager layoutManagerTwo = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
+                                all_place_recyclerview.setLayoutManager(layoutManagerTwo);
+                                all_place_recyclerview.setItemAnimator(new DefaultItemAnimator());
+                                allAdapter= new TouristLocationAdapter(TouristLocationsActivity.this, allPlacesList);
+                                all_place_recyclerview.setAdapter(allAdapter);
 
                             }
 
@@ -476,6 +544,14 @@ public class TouristLocationsActivity extends AppCompatActivity {
                                 cafe_recyclerview.setAdapter(adapter);
 
 
+                                allPlacesList.add(model);
+                                LinearLayoutManager layoutManagerTwo = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
+                                all_place_recyclerview.setLayoutManager(layoutManagerTwo);
+                                all_place_recyclerview.setItemAnimator(new DefaultItemAnimator());
+                                allAdapter= new TouristLocationAdapter(TouristLocationsActivity.this, allPlacesList);
+                                all_place_recyclerview.setAdapter(allAdapter);
+
+
                             }
 
                             @Override
@@ -537,6 +613,13 @@ public class TouristLocationsActivity extends AppCompatActivity {
 
                                 things_recyclerview.setAdapter(adapter);
 
+
+                                allPlacesList.add(model);
+                                LinearLayoutManager layoutManagerTwo = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
+                                all_place_recyclerview.setLayoutManager(layoutManagerTwo);
+                                all_place_recyclerview.setItemAnimator(new DefaultItemAnimator());
+                                allAdapter= new TouristLocationAdapter(TouristLocationsActivity.this, allPlacesList);
+                                all_place_recyclerview.setAdapter(allAdapter);
 
                             }
 
