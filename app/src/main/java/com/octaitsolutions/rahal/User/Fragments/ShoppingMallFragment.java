@@ -12,16 +12,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.ViewPager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.facebook.shimmer.ShimmerFrameLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -30,14 +27,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.octaitsolutions.rahal.Adapter.TouristLocationAdapter;
-import com.octaitsolutions.rahal.Auth.LoginActivity;
 import com.octaitsolutions.rahal.Model.TouristLocation;
 import com.octaitsolutions.rahal.R;
-import com.octaitsolutions.rahal.User.City.TouristLocationsActivity;
 import com.octaitsolutions.rahal.User.HomeActivity;
-import com.ogaclejapan.smarttablayout.SmartTabLayout;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -48,14 +40,13 @@ import es.dmoral.toasty.Toasty;
 import im.delight.android.location.SimpleLocation;
 
 
-public class OfferFragment extends Fragment {
+public class ShoppingMallFragment extends Fragment {
 
-    LottieAnimationView animLocation, animInternet, animFailed;
     View view;
-    FloatingActionButton fabLocation;
-    RecyclerView recyclerView;
-    ArrayList<TouristLocation> list;
-    TouristLocationAdapter adapter;
+    LottieAnimationView animLocation, animInternet, animFailed;
+    private RecyclerView recyclerView;
+    private ArrayList<TouristLocation> list;
+    private TouristLocationAdapter adapter;
     ShimmerFrameLayout mShimmerViewContainer;
 
     SimpleLocation location;
@@ -76,96 +67,85 @@ public class OfferFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_offer, container, false);
+        view = inflater.inflate(R.layout.fragment_shopping_mall, container, false);
 
-        FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
-                getActivity().getSupportFragmentManager(), FragmentPagerItems.with(getContext())
-                .add("Shopping Mall", ShoppingMallFragment.class)
-                .add("Restaurant", ResturantFragment.class)
-                .add("Cafe", CafeFragment.class)
-                .add("Things To Do", ThingsFragment.class)
-                .create());
+        animInternet = view.findViewById(R.id.animation_viewb);
+        animInternet.setVisibility(View.GONE);
 
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.tabPager);
-        viewPager.setAdapter(adapter);
+        list = new ArrayList<>();
+        recyclerView = view.findViewById(R.id.tourist_location_recyclerview);
 
-        SmartTabLayout viewPagerTab = (SmartTabLayout) view.findViewById(R.id.viewpapertab);
-        viewPagerTab.setViewPager(viewPager);
+        animInternet = view.findViewById(R.id.animation_viewb);
+        animInternet.setVisibility(View.GONE);
+        animLocation = view.findViewById(R.id.animation_view);
+        animLocation.setVisibility(View.GONE);
+        animFailed = view.findViewById(R.id.animation_viewc);
+        animFailed.setVisibility(View.GONE);
 
-        {
-            animInternet = view.findViewById(R.id.animation_viewb);
+        ConnectivityManager connManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
+        ConnectivityManager cm =
+                (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        boolean isConnected = activeNetwork != null &&
+                activeNetwork.isConnectedOrConnecting();
+
+
+        if (mWifi.isConnected() || isConnected) {
+
             animInternet.setVisibility(View.GONE);
-            animLocation = view.findViewById(R.id.animation_view);
-            animLocation.setVisibility(View.GONE);
-            animFailed = view.findViewById(R.id.animation_viewc);
-            animFailed.setVisibility(View.GONE);
+        } else {
+            animInternet.setVisibility(View.VISIBLE);
+            Toasty.warning(getContext(), "Check Your Internet ! Make Sure Your are Connected to Internet ", Toasty.LENGTH_SHORT).show();
 
-            ConnectivityManager connManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
-            NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        }
 
-            ConnectivityManager cm =
-                    (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        firebaseAuth = FirebaseAuth.getInstance();
+        rootRef = FirebaseDatabase.getInstance().getReference();
+        firebaseUser = firebaseAuth.getCurrentUser();
+        if (firebaseUser != null) {
+            currentUserId = firebaseAuth.getCurrentUser().getUid();
 
-            NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-            boolean isConnected = activeNetwork != null &&
-                    activeNetwork.isConnectedOrConnecting();
+        }
 
 
+        mShimmerViewContainer = view.findViewById(R.id.shimmer_view_container_home);
+
+
+        location = new SimpleLocation(getActivity());
+
+        if (!location.hasLocationEnabled()) {
             if (mWifi.isConnected() || isConnected) {
 
                 animInternet.setVisibility(View.GONE);
-            } else {
-                animInternet.setVisibility(View.VISIBLE);
-                Toasty.warning(getContext(), "Check Your Internet ! Make Sure Your are Connected to Internet ", Toasty.LENGTH_SHORT).show();
-
-            }
-
-            firebaseAuth = FirebaseAuth.getInstance();
-            rootRef = FirebaseDatabase.getInstance().getReference();
-            firebaseUser = firebaseAuth.getCurrentUser();
-            if (firebaseUser != null) {
-                currentUserId = firebaseAuth.getCurrentUser().getUid();
-
-            }
-
-
-            mShimmerViewContainer = view.findViewById(R.id.shimmer_view_container_home);
-            fabLocation = view.findViewById(R.id.fab_location);
-            recyclerView = view.findViewById(R.id.near_by_recyclerview);
-            list = new ArrayList<>();
-
-            location = new SimpleLocation(getActivity());
-
-            if (!location.hasLocationEnabled()) {
-                if (mWifi.isConnected() || isConnected) {
-
-                    animInternet.setVisibility(View.GONE);
-                    animLocation.setVisibility(View.VISIBLE);
-                } else {
-                    animLocation.setVisibility(View.GONE);
-                }
-
-            }
-
-            if (HomeActivity.LOCATION == 1) {
                 animLocation.setVisibility(View.VISIBLE);
             } else {
-
-                if (!location.hasLocationEnabled()) {
-                    // ask the user to enable location access
-                    SimpleLocation.openSettings(getContext());
-                } else {
-                    mShimmerViewContainer.setVisibility(View.VISIBLE);
-
-                    final double latitude = location.getLatitude();
-                    final double longitude = location.getLongitude();
-                    getAddress(getContext(), latitude, longitude);
-                }
-
-
+                animLocation.setVisibility(View.GONE);
             }
 
         }
+
+        if (HomeActivity.LOCATION == 1) {
+            animLocation.setVisibility(View.VISIBLE);
+        } else {
+
+            if (!location.hasLocationEnabled()) {
+                // ask the user to enable location access
+                SimpleLocation.openSettings(getContext());
+            } else {
+                mShimmerViewContainer.setVisibility(View.VISIBLE);
+
+                final double latitude = location.getLatitude();
+                final double longitude = location.getLongitude();
+                getAddress(getContext(), latitude, longitude);
+            }
+
+
+        }
+
+
         return view;
     }
 
@@ -587,6 +567,4 @@ public class OfferFragment extends Fragment {
         }
 
     }
-
-
 }
