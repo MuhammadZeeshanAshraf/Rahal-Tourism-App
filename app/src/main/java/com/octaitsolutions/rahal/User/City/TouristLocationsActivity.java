@@ -77,6 +77,12 @@ public class TouristLocationsActivity extends AppCompatActivity {
         helper.setLang(Lang.ENGLISH);
 
 
+        findViewById(R.id.lang_all).setSelected(true);
+        findViewById(R.id.lang_shop).setSelected(true);
+        findViewById(R.id.lang_rest).setSelected(true);
+        findViewById(R.id.lang_cafe).setSelected(true);
+        findViewById(R.id.lang_things).setSelected(true);
+
         back = findViewById(R.id.iv_back);
         catShopping = findViewById(R.id.cat_shopping);
         catRestaurant= findViewById(R.id.cat_rest);
@@ -381,7 +387,6 @@ public class TouristLocationsActivity extends AppCompatActivity {
                                 , address , timing , link , location , description , uri,rating);
                                 list.add(model);
 
-                                allPlacesList.add(model);
 
                                 LinearLayoutManager layoutManager = new LinearLayoutManager(TouristLocationsActivity.this, LinearLayoutManager.VERTICAL, false);
 
@@ -431,6 +436,8 @@ public class TouristLocationsActivity extends AppCompatActivity {
         restList.clear();
         cafeList.clear();
         thingsList.clear();
+        allPlacesList.clear();
+
 
 
         rootRef.child("Restaurant").child(selectedCountry).child(selectedCity).addListenerForSingleValueEvent(new ValueEventListener() {

@@ -163,12 +163,18 @@
 
 
                                 <TextView
+                                    android:id="@+id/lang_all"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/calibri"
                                     android:gravity="center_horizontal"
                                     android:layout_marginTop="@dimen/_5sdp"
                                     android:text="@string/all_places"
+                                    android:ellipsize = "marquee"
+                                    android:fadingEdge = "horizontal"
+                                    android:marqueeRepeatLimit = "marquee_forever"
+                                    android:scrollHorizontally = "true"
+                                    android:singleLine = "true"
                                     android:textAlignment="center"
                                     android:textSize="@dimen/_10ssp"
                                     android:textStyle="bold" />
@@ -212,6 +218,11 @@
                                     android:fontFamily="@font/calibri"
                                     android:gravity="center_horizontal"
                                     android:layout_marginTop="@dimen/_5sdp"
+                                    android:ellipsize = "marquee"
+                                    android:fadingEdge = "horizontal"
+                                    android:marqueeRepeatLimit = "marquee_forever"
+                                    android:scrollHorizontally = "true"
+                                    android:singleLine = "true"
                                     android:text="@string/shopping"
                                     android:textAlignment="center"
                                     android:textSize="@dimen/_10ssp"
@@ -258,6 +269,11 @@
                                     android:layout_marginTop="@dimen/_5sdp"
                                     android:text="@string/restaurant"
                                     android:textAlignment="center"
+                                    android:ellipsize = "marquee"
+                                    android:fadingEdge = "horizontal"
+                                    android:marqueeRepeatLimit = "marquee_forever"
+                                    android:scrollHorizontally = "true"
+                                    android:singleLine = "true"
                                     android:textSize="@dimen/_10ssp"
                                     android:textStyle="bold" />
 
@@ -302,6 +318,11 @@
                                     android:layout_marginTop="@dimen/_5sdp"
                                     android:text="@string/cafes"
                                     android:textAlignment="center"
+                                    android:ellipsize = "marquee"
+                                    android:fadingEdge = "horizontal"
+                                    android:marqueeRepeatLimit = "marquee_forever"
+                                    android:scrollHorizontally = "true"
+                                    android:singleLine = "true"
                                     android:textSize="@dimen/_10ssp"
                                     android:textStyle="bold" />
 
@@ -346,6 +367,11 @@
                                     android:layout_marginTop="@dimen/_5sdp"
                                     android:text="@string/things_to_do"
                                     android:textAlignment="center"
+                                    android:ellipsize = "marquee"
+                                    android:fadingEdge = "horizontal"
+                                    android:marqueeRepeatLimit = "marquee_forever"
+                                    android:scrollHorizontally = "true"
+                                    android:singleLine = "true"
                                     android:textSize="@dimen/_10ssp"
                                     android:textStyle="bold" />
 

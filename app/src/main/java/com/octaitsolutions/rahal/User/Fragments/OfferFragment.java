@@ -8,19 +8,26 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.facebook.shimmer.ShimmerFrameLayout;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -66,6 +73,9 @@ public class OfferFragment extends Fragment {
     String currentUserId;
     int checker = 0;
 
+    ImageView SearchIcon;
+    androidx.appcompat.widget.SearchView SearchView;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,9 +99,32 @@ public class OfferFragment extends Fragment {
         ViewPager viewPager = (ViewPager) view.findViewById(R.id.tabPager);
         viewPager.setAdapter(adapter);
 
+
         SmartTabLayout viewPagerTab = (SmartTabLayout) view.findViewById(R.id.viewpapertab);
         viewPagerTab.setViewPager(viewPager);
 
+        SearchIcon = view.findViewById(R.id.offer_searchIcon);
+        SearchView = view.findViewById(R.id.searchView);
+
+        SearchIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SearchAnyPlace();
+            }
+        });
+
+        SearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                SearchAnyPlace();
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
         {
             animInternet = view.findViewById(R.id.animation_viewb);
             animInternet.setVisibility(View.GONE);
@@ -588,5 +621,70 @@ public class OfferFragment extends Fragment {
 
     }
 
+
+    private void SearchAnyPlace() {
+        String address = SearchView.getQuery().toString().trim();
+
+        List<Address> addressList = null;
+        MarkerOptions userMarkerOptions = new MarkerOptions();
+        if (!TextUtils.isEmpty(address)) {
+            Geocoder geocoder = new Geocoder(getContext());
+
+            try {
+                addressList = geocoder.getFromLocationName(address, 6);
+                if (addressList != null) {
+
+                    for (int i = 0; i < addressList.size(); i++) {
+                        Address userAddress = addressList.get(i);
+                        LatLng latLng = new LatLng(userAddress.getLatitude(), userAddress.getLongitude());
+                        userMarkerOptions.position(latLng);
+                        userMarkerOptions.title(address);
+                        userMarkerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA));
+
+                        if(ShoppingMallFragment.mMap != null)
+                        {
+                            ShoppingMallFragment.mMap.addMarker(userMarkerOptions);
+                            ShoppingMallFragment.mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                            ShoppingMallFragment.mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+                        }
+
+                        if(ResturantFragment.mMap != null)
+                        {
+                            ResturantFragment.mMap.addMarker(userMarkerOptions);
+                            ResturantFragment.mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                            ResturantFragment.mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+                        }
+
+                        if(CafeFragment.mMap != null)
+                        {
+                            CafeFragment.mMap.addMarker(userMarkerOptions);
+                            CafeFragment.mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                            CafeFragment.mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+                        }
+
+                        if(ThingsFragment.mMap != null)
+                        {
+                            ThingsFragment.mMap.addMarker(userMarkerOptions);
+                            ThingsFragment.mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                            ThingsFragment.mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+                        }
+
+
+
+
+
+                    }
+                } else {
+                    Toast.makeText(getContext(), "Location Not Found....", Toast.LENGTH_SHORT).show();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        } else {
+            Toast.makeText(getContext(), "Please write any location name ....", Toast.LENGTH_SHORT).show();
+        }
+
+    }
 
 }
